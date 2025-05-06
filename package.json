@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "framer-motion": "^12.9.7",
     "lucide-react": "^0.507.0",
     "mysql2": "^3.14.1",
     "next": "15.3.1",
