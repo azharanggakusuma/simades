@@ -1,1 +1,1 @@
-# SIMADES (COMING SOON)
+# Sistem Manajemen Data Desa (SIMADES) Kab. Cirebon
