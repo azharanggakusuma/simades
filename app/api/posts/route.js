@@ -1,82 +1,29 @@
-import { PrismaClient } from '@prisma/client';
+// app/api/posts/route.js
+import { prisma } from '@/lib/prisma';
 
-const prisma = new PrismaClient();
-
-// CREATE: Menambah Post
-export async function POST(request) {
-  const { title, content } = await request.json();
-
-  if (!title || !content) {
-    return new Response('Title and content are required', { status: 400 });
-  }
-
-  try {
-    const newPost = await prisma.post.create({
-      data: {
-        title,
-        content,
-      },
-    });
-
-    return new Response(JSON.stringify(newPost), { status: 201 });
-  } catch (error) {
-    return new Response('Failed to create post', { status: 500 });
-  }
-}
-
-// READ: Mendapatkan Semua Post
 export async function GET() {
-  try {
-    const posts = await prisma.post.findMany();
-    return new Response(JSON.stringify(posts), { status: 200 });
-  } catch (error) {
-    return new Response('Failed to fetch posts', { status: 500 });
-  }
+  const posts = await prisma.post.findMany({ orderBy: { id: 'desc' } });
+  return Response.json(posts);
 }
 
-// UPDATE: Memperbarui Post Berdasarkan ID
-export async function PUT(request) {
-  const { id, title, content } = await request.json();
-
-  if (!id || !title || !content) {
-    return new Response('ID, title, and content are required', { status: 400 });
-  }
-
-  try {
-    const updatedPost = await prisma.post.update({
-      where: {
-        id: parseInt(id),
-      },
-      data: {
-        title,
-        content,
-      },
-    });
-
-    return new Response(JSON.stringify(updatedPost), { status: 200 });
-  } catch (error) {
-    return new Response('Failed to update post', { status: 500 });
-  }
+export async function POST(req) {
+  const { title, content } = await req.json();
+  const post = await prisma.post.create({ data: { title, content } });
+  return Response.json(post);
 }
 
-// DELETE: Menghapus Post Berdasarkan ID
-export async function DELETE(request) {
-  const { searchParams } = new URL(request.url);
-  const id = searchParams.get('id');
+export async function PUT(req) {
+  const { id, title, content } = await req.json();
+  const updated = await prisma.post.update({
+    where: { id },
+    data: { title, content }
+  });
+  return Response.json(updated);
+}
 
-  if (!id) {
-    return new Response('ID is required', { status: 400 });
-  }
-
-  try {
-    const deletedPost = await prisma.post.delete({
-      where: {
-        id: parseInt(id),
-      },
-    });
-
-    return new Response(JSON.stringify(deletedPost), { status: 200 });
-  } catch (error) {
-    return new Response('Failed to delete post', { status: 500 });
-  }
+export async function DELETE(req) {
+  const { searchParams } = new URL(req.url);
+  const id = parseInt(searchParams.get('id'));
+  await prisma.post.delete({ where: { id } });
+  return Response.json({ success: true });
 }
