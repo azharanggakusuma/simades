@@ -27,7 +27,7 @@ const Header = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
-            {['Home', 'About', 'Services Us', 'Faq', 'Contact'].map((item) => (
+            {['Home', 'About Us', 'Services', 'Faq', 'Contact'].map((item) => (
               <Link
                 key={item}
                 href="#"
