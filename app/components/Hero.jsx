@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -25,9 +26,9 @@ const Hero = () => {
           <div className="mt-6 flex flex-wrap gap-4">
             <a
               className="inline-block rounded-lg bg-indigo-600 px-6 py-3 text-white font-medium shadow hover:bg-indigo-700 transition"
-              href="#"
+              href="/dashboard"
             >
-              Get Started
+            Dashboard
             </a>
 
             <a

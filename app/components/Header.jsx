@@ -41,7 +41,7 @@ const Header = () => {
           {/* Button for Login */}
           <div className="hidden md:flex gap-3">
             <Link
-              href="#"
+              href="/dashboard"
               className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition duration-300"
             >
               Dashboard
@@ -71,7 +71,7 @@ const Header = () => {
           ))}
           <div className="pt-2 border-t border-gray-200">
             <Link
-              href="#"
+              href="/dashboard"
               className="block px-4 py-3 rounded-md bg-indigo-600 text-white text-center hover:bg-indigo-700 transition duration-300"
             >
               Dashboard
