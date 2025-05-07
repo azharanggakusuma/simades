@@ -18,8 +18,7 @@ const Hero = () => {
           </h1>
 
           <p className="mt-6 text-gray-700 text-base sm:text-lg">
-            SIMADES hadir untuk mempermudah desa dalam mengisi berbagai formulir
-            data desa secara terpusat, cepat, dan efisien.
+            SIMADES hadir untuk mempermudah desa dalam mengisi berbagai data desa secara terpusat, cepat, dan efisien.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-4">
