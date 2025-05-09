@@ -8,30 +8,12 @@ export default function Stats() {
           <div className="p-4 md:p-5 flex justify-between gap-x-3">
             <div>
               <p className="text-xs uppercase text-gray-500 dark:text-neutral-500">
-                Total users
+                Users
               </p>
               <div className="mt-1 flex items-center gap-x-2">
-                <h3 className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                  72,540
+                <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
+                  424
                 </h3>
-                <span className="flex items-center gap-x-1 text-green-600">
-                  <svg
-                    className="inline-block size-5 self-center"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
-                    <polyline points="16 7 22 7 22 13" />
-                  </svg>
-                  <span className="inline-block text-lg">1.7%</span>
-                </span>
               </div>
             </div>
             <div className="shrink-0 flex justify-center items-center size-11 bg-blue-600 text-white rounded-full dark:bg-blue-900 dark:text-blue-200">
@@ -81,11 +63,11 @@ export default function Stats() {
           <div className="p-4 md:p-5 flex justify-between gap-x-3">
             <div>
               <p className="text-xs uppercase text-gray-500 dark:text-neutral-500">
-                Sessions
+                Desa
               </p>
               <div className="mt-1 flex items-center gap-x-2">
                 <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
-                  29.4%
+                  0
                 </h3>
               </div>
             </div>
@@ -136,30 +118,12 @@ export default function Stats() {
           <div className="p-4 md:p-5 flex justify-between gap-x-3">
             <div>
               <p className="text-xs uppercase text-gray-500 dark:text-neutral-500">
-                Avg. Click Rate
+                Kelurahan
               </p>
               <div className="mt-1 flex items-center gap-x-2">
-                <h3 className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-                  56.8%
+                <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
+                  0
                 </h3>
-                <span className="flex items-center gap-x-1 text-red-600">
-                  <svg
-                    className="inline-block size-4 self-center"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={24}
-                    height={24}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <polyline points="22 17 13.5 8.5 8.5 13.5 2 7" />
-                    <polyline points="16 17 22 17 22 11" />
-                  </svg>
-                  <span className="inline-block text-lg">1.7%</span>
-                </span>
               </div>
             </div>
             <div className="shrink-0 flex justify-center items-center size-11 bg-blue-600 text-white rounded-full dark:bg-blue-900 dark:text-blue-200">
@@ -207,11 +171,11 @@ export default function Stats() {
           <div className="p-4 md:p-5 flex justify-between gap-x-3">
             <div>
               <p className="text-xs uppercase text-gray-500 dark:text-neutral-500">
-                Pageviews
+                Kecamatan
               </p>
               <div className="mt-1 flex items-center gap-x-2">
                 <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
-                  92,913
+                  40
                 </h3>
               </div>
             </div>
