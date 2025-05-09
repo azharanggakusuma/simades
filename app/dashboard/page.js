@@ -11,9 +11,11 @@ export default function Dashboard() {
 
       <main className="flex-grow p-4 sm:ml-64">
         <div className="flex items-center justify-between mt-16">
-          <h1 className="text-xl font-semibold text-gray-800">
-            Welcome Back! <span className="text-blue-700">Administrator</span>
-          </h1>
+          <div>
+            <h1 className="text-2xl font-semibold text-gray-800">Welcome Back!</h1>
+            <p className="text-sm text-gray-500">Diskominfo Kab. Cirebon</p>
+          </div>
+
           {/* Breadcrumb */}
           <nav className="text-sm text-gray-500" aria-label="Breadcrumb">
             <ol className="list-none p-0 inline-flex">
@@ -37,6 +39,7 @@ export default function Dashboard() {
             </ol>
           </nav>
         </div>
+
         <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-8">
           <Stats />
         </div>

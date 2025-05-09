@@ -67,7 +67,7 @@ export default function Stats() {
               </p>
               <div className="mt-1 flex items-center gap-x-2">
                 <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
-                  0
+                  412
                 </h3>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function Stats() {
               </p>
               <div className="mt-1 flex items-center gap-x-2">
                 <h3 className="mt-1 text-xl font-medium text-gray-800 dark:text-neutral-200">
-                  0
+                  12
                 </h3>
               </div>
             </div>
