@@ -68,8 +68,8 @@ export default function Navbar() {
                   >
                     <span className="sr-only">Open user menu</span>
                     <img
-                      className="w-8 h-8 rounded-full"
-                      src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                      className="w-10 h-10 rounded-full"
+                      src="https://www.w3schools.com/w3images/avatar3.png"
                       alt="user photo"
                     />
                   </button>
