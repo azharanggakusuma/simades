@@ -40,7 +40,7 @@ export default function Stats() {
             className="py-3 px-4 md:px-5 inline-flex justify-between items-center text-sm text-gray-600 border-t border-gray-200 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 rounded-b-xl dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
             href="#"
           >
-            View reports
+            View data
             <svg
               className="shrink-0 size-4"
               xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ export default function Stats() {
             className="py-3 px-4 md:px-5 inline-flex justify-between items-center text-sm text-gray-600 border-t border-gray-200 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 rounded-b-xl dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
             href="#"
           >
-            View reports
+            View data
             <svg
               className="shrink-0 size-4"
               xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ export default function Stats() {
             className="py-3 px-4 md:px-5 inline-flex justify-between items-center text-sm text-gray-600 border-t border-gray-200 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 rounded-b-xl dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
             href="#"
           >
-            View reports
+            View data
             <svg
               className="shrink-0 size-4"
               xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ export default function Stats() {
             className="py-3 px-4 md:px-5 inline-flex justify-between items-center text-sm text-gray-600 border-t border-gray-200 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 rounded-b-xl dark:border-neutral-800 dark:text-neutral-400 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
             href="#"
           >
-            View reports
+            View data
             <svg
               className="shrink-0 size-4"
               xmlns="http://www.w3.org/2000/svg"
