@@ -4,7 +4,9 @@ import {
   MdGroup,
   MdInsertChartOutlined,
   MdLogout,
-  MdExpandMore,
+  MdSettings,
+  MdMenu,
+  MdExpandMore
 } from "react-icons/md";
 
 export default function Sidebar() {
@@ -86,6 +88,36 @@ export default function Sidebar() {
             >
               <MdInsertChartOutlined className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
               <span className="ms-3">Data Report</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+              <MdMenu className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <span className="ms-3">Manage Form</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+              <MdMenu className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <span className="ms-3">Manage Menu</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+              <MdSettings className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <span className="ms-3">Settings</span>
             </a>
           </li>
 
