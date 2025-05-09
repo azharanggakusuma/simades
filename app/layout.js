@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
