@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <>
+    <div className="sm:ml-64">
       <nav className="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <div className="px-3 py-3 lg:px-5 lg:pl-3">
           <div className="flex items-center justify-between">
@@ -27,18 +27,37 @@ export default function Navbar() {
                   />
                 </svg>
               </button>
-              <a href="#" className="flex ms-2 md:me-24">
-                <img
-                  src="/img/logo_kabcirebon.png"
-                  alt="Logo"
-                  className="h-8 me-3"
+
+              {/* Search input - Desktop */}
+              <div className="relative hidden md:block w-64 ml-4">
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg
+                    className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                    />
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  id="search-navbar"
+                  className="block w-full pl-10 pr-3 py-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+                  dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Search..."
                 />
-                <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                  SIMADES
-                </span>
-              </a>
+              </div>
             </div>
-            <div className="flex items-center">
+
+            <div className="flex items-center sm:mr-64">
               <div className="flex items-center ms-3">
                 <div>
                   <button
@@ -108,6 +127,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
