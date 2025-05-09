@@ -27,14 +27,14 @@ export default function Sidebar() {
                   />
                 </svg>
               </button>
-              <a href="https://flowbite.com" className="flex ms-2 md:me-24">
+              <a href="#" className="flex ms-2 md:me-24">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
+                  src="/img/logo_kabcirebon.png"
+                  alt="Logo"
                   className="h-8 me-3"
-                  alt="FlowBite Logo"
                 />
                 <span className="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">
-                  Flowbite
+                  SIMADES
                 </span>
               </a>
             </div>
@@ -64,13 +64,13 @@ export default function Sidebar() {
                       className="text-sm text-gray-900 dark:text-white"
                       role="none"
                     >
-                      Neil Sims
+                      Diskominfo Kab. Cirebon
                     </p>
                     <p
                       className="text-sm font-medium text-gray-900 truncate dark:text-gray-300"
                       role="none"
                     >
-                      neil.sims@flowbite.com
+                      (Administrator)
                     </p>
                   </div>
                   <ul className="py-1" role="none">
@@ -90,15 +90,6 @@ export default function Sidebar() {
                         role="menuitem"
                       >
                         Settings
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white"
-                        role="menuitem"
-                      >
-                        Earnings
                       </a>
                     </li>
                     <li>
