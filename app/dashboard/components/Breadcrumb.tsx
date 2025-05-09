@@ -5,7 +5,7 @@ export default function Breadcrumb() {
       <div className="flex items-center justify-between mt-16">
         <div>
           <h1 className="text-2xl font-semibold text-gray-800">Welcome Back!</h1>
-          <p className="text-sm text-gray-500">Diskominfo Kab. Cirebon</p>
+          <p className="text-sm text-gray-500 mt-1">Diskominfo Kab. Cirebon</p>
         </div>
 
         {/* Breadcrumb Navigation */}
