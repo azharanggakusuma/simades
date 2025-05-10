@@ -4,6 +4,7 @@ import Stats from "./components/Stats";
 import Footer from "./components/Footer";
 import Breadcrumb from "./components/Breadcrumb";
 import ChartVisitor from "./components/ChartVisitor";
+import ChartTask from "./components/ChartTask";
 
 export default function Dashboard() {
   return (
@@ -17,6 +18,7 @@ export default function Dashboard() {
         <div className="p-2 mt-8">
           <Stats />
           <ChartVisitor />
+          <ChartTask />
         </div>
         {/*
         <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-8">
