@@ -10,10 +10,10 @@ export default function Dashboard() {
       <Navbar />
       <Sidebar />
 
-      <main className="flex-grow p-4 sm:ml-64">
+      <main className="flex-grow p-6 sm:ml-64">
         <Breadcrumb />
 
-        <div className="mt-8">
+        <div className="p-2 mt-8">
           <Stats />
         </div>
         {/*
