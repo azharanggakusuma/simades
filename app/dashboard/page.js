@@ -17,8 +17,15 @@ export default function Dashboard() {
 
         <div className="p-2 mt-8">
           <Stats />
-          <ChartVisitor />
-          <ChartTask />
+
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-8">
+            <div className="h-32 rounded lg:col-span-2">
+              <ChartVisitor />
+            </div>
+            <div className="h-32 rounded">
+              <ChartTask />
+            </div>
+          </div>
         </div>
         {/*
         <div className="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-8">

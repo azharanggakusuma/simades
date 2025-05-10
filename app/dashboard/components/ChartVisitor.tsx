@@ -150,7 +150,7 @@ export default function ChartVisitor() {
   }, []);
 
   return (
-    <div className="p-4 mt-8 mb-8 md:p-5 min-h-102.5 flex flex-col bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-800 dark:border-neutral-700">
+    <div className="p-4 md:p-5 min-h-102.5 flex flex-col bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-800 dark:border-neutral-700">
       <div className="flex flex-wrap justify-between items-center gap-2">
         <div>
           <h2 className="text-sm text-gray-500 dark:text-neutral-500">
