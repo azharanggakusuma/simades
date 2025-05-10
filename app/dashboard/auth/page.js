@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/solid";
@@ -6,17 +6,25 @@ import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/solid";
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
+  // Array untuk pilihan tahun (misalnya tahun 2023-2030)
+  const years = Array.from({ length: 8 }, (_, index) => 2023 + index);
+
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-gray-100 dark:bg-neutral-950">
       <div className="w-full max-w-md bg-white border border-gray-200 rounded-2xl shadow-lg dark:bg-neutral-900 dark:border-neutral-700">
         <div className="p-8">
           <div className="text-center mb-6">
-            <h1 className="text-3xl font-bold text-gray-800 dark:text-white">SIMADES</h1>
+            <h1 className="text-3xl font-bold text-gray-800 dark:text-white">
+              SIMADES
+            </h1>
           </div>
 
           <form className="space-y-6">
             <div>
-              <label htmlFor="username" className="block text-sm font-medium mb-2 dark:text-white">
+              <label
+                htmlFor="username"
+                className="block text-sm font-medium mb-2 dark:text-white"
+              >
                 Username
               </label>
               <input
@@ -31,15 +39,12 @@ export default function Login() {
 
             <div>
               <div className="flex justify-between items-center mb-2">
-                <label htmlFor="password" className="block text-sm font-medium dark:text-white">
+                <label
+                  htmlFor="password"
+                  className="block text-sm font-medium dark:text-white"
+                >
                   Password
                 </label>
-                <a
-                  className="text-sm text-blue-600 hover:underline dark:text-blue-500"
-                  href="../examples/html/recover-account.html"
-                >
-                  Forgot password?
-                </a>
               </div>
               <div className="relative">
                 <input
@@ -64,6 +69,31 @@ export default function Login() {
               </div>
             </div>
 
+            {/* Input Select Tahun Pengisian */}
+            <div>
+              <label
+                htmlFor="year"
+                className="block text-sm font-medium mb-2 dark:text-white"
+              >
+                Tahun Pengisian
+              </label>
+              <select
+                id="year"
+                name="year"
+                className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                required
+              >
+                <option value="" disabled selected>
+                  Pilih tahun pengisian
+                </option>
+                {years.map((year) => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
+            </div>
+
             <div className="flex items-center space-x-2">
               <input
                 id="remember-me"
@@ -84,15 +114,14 @@ export default function Login() {
             </button>
           </form>
 
-          {/* Sign up link at the bottom */}
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600 dark:text-neutral-400">
-              Don't have an account yet?{" "}
+              Forgot your password?{" "}
               <a
+                href="../examples/html/recover-account.html"
                 className="text-blue-600 hover:underline font-medium dark:text-blue-500"
-                href="../examples/html/signup.html"
               >
-                Sign up here
+                Reset here
               </a>
             </p>
           </div>
