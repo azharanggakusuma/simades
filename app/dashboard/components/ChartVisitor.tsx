@@ -15,13 +15,13 @@ export default function ChartVisitor() {
         <div class="apexcharts-tooltip-title">${title}</div>
         <div class="apexcharts-tooltip-series-group">
           <span class="apexcharts-tooltip-marker" style="background-color: ${props.ctx.opts.colors[0]}"></span>
-          <span class="apexcharts-tooltip-text-label">Chosen Period: </span>
-          <span class="apexcharts-tooltip-text-value">$${label1}</span>
+          <span class="apexcharts-tooltip-text-label">Current Visitors: </span>
+          <span class="apexcharts-tooltip-text-value">${label1} people</span>
         </div>
         <div class="apexcharts-tooltip-series-group">
           <span class="apexcharts-tooltip-marker" style="background-color: ${props.ctx.opts.colors[1]}"></span>
-          <span class="apexcharts-tooltip-text-label">Last Period: </span>
-          <span class="apexcharts-tooltip-text-value">$${label2}</span>
+          <span class="apexcharts-tooltip-text-label">Previous Visitors: </span>
+          <span class="apexcharts-tooltip-text-value">${label2} people</span>
         </div>
       `;
     };
@@ -35,12 +35,12 @@ export default function ChartVisitor() {
       },
       series: [
         {
-          name: "Chosen Period",
-          data: [23000, 44000, 55000, 57000, 56000, 61000, 58000, 63000, 60000, 66000, 34000, 78000],
+          name: "Current Visitors",
+          data: [1500, 3000, 4200, 3800, 4000, 5000, 4600, 5300, 4900, 5600, 2700, 7000], // Example visitor data for the current period
         },
         {
-          name: "Last Period",
-          data: [17000, 76000, 85000, 101000, 98000, 87000, 105000, 91000, 114000, 94000, 67000, 66000],
+          name: "Previous Visitors",
+          data: [1300, 2500, 3800, 3500, 3700, 4800, 4400, 5100, 4700, 5400, 2600, 6900], // Example visitor data for the previous period
         },
       ],
       plotOptions: {
@@ -131,8 +131,8 @@ export default function ChartVisitor() {
     <div className="p-4 mt-8 mb-8 md:p-5 min-h-102.5 flex flex-col bg-white border border-gray-200 shadow-2xs rounded-xl dark:bg-neutral-800 dark:border-neutral-700">
       <div className="flex flex-wrap justify-between items-center gap-2">
         <div>
-          <h2 className="text-sm text-gray-500 dark:text-neutral-500">Visitors</h2>
-          <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">80.3k</p>
+          <h2 className="text-sm text-gray-500 dark:text-neutral-500">Visitors</h2> {/* Updated to Visitors */}
+          <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">80.3k</p> {/* You can update this number accordingly */}
         </div>
         <div>
           <span className="py-[5px] px-1.5 inline-flex items-center gap-x-1 text-xs font-medium rounded-md bg-red-100 text-red-800 dark:bg-red-500/10 dark:text-red-500">
