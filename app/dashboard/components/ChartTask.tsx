@@ -14,8 +14,7 @@ export default function ChartTask() {
       const buildTooltip = (props) => {
         const { dataPointIndex, series, ctx } = props;
         const value = series[dataPointIndex] || 0;
-        const label =
-          dataPointIndex === 0 ? "Completed Tasks" : "Pending Tasks";
+        const label = dataPointIndex === 0 ? "Selesai" : "Belum";
 
         return `
           <div class="apexcharts-tooltip-title">${label}</div>
@@ -28,8 +27,8 @@ export default function ChartTask() {
       };
 
       // Replace with actual task data
-      const completedTasks = 70; // Example data: 70% completed
-      const pendingTasks = 100 - completedTasks; // Remaining 30% pending
+      const completedTasks = 70;
+      const pendingTasks = 100 - completedTasks;
 
       const chart = new ApexCharts(element, {
         chart: {
@@ -37,9 +36,9 @@ export default function ChartTask() {
           type: "pie",
           toolbar: { show: false },
         },
-        series: [completedTasks, pendingTasks], // Data for Completed and Pending tasks
-        labels: ["Completed", "Pending"],
-        colors: ["#4caf50", "#ff9800"], // Green for completed, Orange for pending
+        series: [completedTasks, pendingTasks],
+        labels: ["Selesai", "Belum"],
+        colors: ["#4caf50", "#ff9800"],
         legend: {
           position: "top",
           horizontalAlign: "center",
@@ -69,7 +68,7 @@ export default function ChartTask() {
       <div className="flex flex-wrap justify-between items-center gap-2">
         <div>
           <h2 className="text-sm text-gray-500 dark:text-neutral-500">
-            Progress Pengisian
+            Progres Pengisian
           </h2>
           <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
             424 Desa/Kelurahan
@@ -85,8 +84,7 @@ export default function ChartTask() {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path d="M12 5v14" />
-              <path d="m19 12-7 7-7-7" />
+              <path d="M5 13l4 4L19 7" />
             </svg>
             70%
           </span>

@@ -158,7 +158,7 @@ export default function ChartVisitor() {
             Visitors
           </h2>
           <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-            2.3k
+            2.5k
           </p>
         </div>
         <div>
