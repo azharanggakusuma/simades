@@ -6,8 +6,8 @@ import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/solid";
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
-  // Array untuk pilihan tahun (misalnya tahun 2023-2030)
-  const years = Array.from({ length: 8 }, (_, index) => 2023 + index);
+  // Array untuk pilihan tahun
+  const years = Array.from({ length: 5 }, (_, index) => 2024 + index);
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-gray-100 dark:bg-neutral-950">
