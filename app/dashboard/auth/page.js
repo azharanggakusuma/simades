@@ -31,7 +31,7 @@ export default function Login() {
                 type="text"
                 id="username"
                 name="username"
-                placeholder="Enter your username"
+                placeholder="Masukan username"
                 className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white transition-all duration-300"
                 required
               />
@@ -51,7 +51,7 @@ export default function Login() {
                   type={showPassword ? "text" : "password"}
                   id="password"
                   name="password"
-                  placeholder="Enter your password"
+                  placeholder="Masukan password"
                   className="w-full py-3 px-4 pr-11 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
                   required
                 />
@@ -102,7 +102,7 @@ export default function Login() {
                 className="h-4 w-4 text-blue-600 border-gray-300 rounded dark:bg-neutral-800 dark:border-neutral-700"
               />
               <label htmlFor="remember-me" className="text-sm dark:text-white">
-                Remember me
+                Ingat saya
               </label>
             </div>
 
@@ -116,12 +116,12 @@ export default function Login() {
 
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600 dark:text-neutral-400">
-              Forgot your password?{" "}
+              Lupa kata sandi?{" "}
               <a
                 href="../examples/html/recover-account.html"
                 className="text-blue-600 hover:underline font-medium dark:text-blue-500"
               >
-                Reset here
+                Reset disini
               </a>
             </p>
           </div>
