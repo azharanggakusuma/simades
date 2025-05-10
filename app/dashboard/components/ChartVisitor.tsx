@@ -1,8 +1,9 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function ChartVisitor() {
   const chartRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const element = chartRef.current;
@@ -40,7 +41,7 @@ export default function ChartVisitor() {
         series: [
           {
             name: "Visitors",
-            data: [200, 150, 120, 180, 160, 200, 210, 250, 270, 230, 220, 260], // New data
+            data: [200, 150, 120, 180, 160, 200, 210, 250, 270, 230, 220, 260],
           },
         ],
         legend: { show: false },
@@ -77,7 +78,7 @@ export default function ChartVisitor() {
             "September",
             "October",
             "November",
-            "December", // Updated categories
+            "December",
           ],
           axisBorder: { show: false },
           axisTicks: { show: false },
@@ -144,7 +145,7 @@ export default function ChartVisitor() {
         ],
       });
 
-      chart.render();
+      chart.render().then(() => setIsLoading(false));
       return () => chart.destroy();
     });
   }, []);
@@ -157,7 +158,7 @@ export default function ChartVisitor() {
             Visitors
           </h2>
           <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-            80.3k
+            2.3k
           </p>
         </div>
         <div>
@@ -177,6 +178,13 @@ export default function ChartVisitor() {
           </span>
         </div>
       </div>
+
+      {isLoading && (
+        <div className="flex justify-center items-center h-72">
+          <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
+        </div>
+      )}
+
       <div ref={chartRef} id="hs-single-area-chart" />
     </div>
   );

@@ -1,8 +1,9 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function ChartTask() {
   const chartRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const element = chartRef.current;
@@ -58,7 +59,7 @@ export default function ChartTask() {
         ],
       });
 
-      chart.render();
+      chart.render().then(() => setIsLoading(false));
       return () => chart.destroy();
     });
   }, []);
@@ -68,10 +69,10 @@ export default function ChartTask() {
       <div className="flex flex-wrap justify-between items-center gap-2">
         <div>
           <h2 className="text-sm text-gray-500 dark:text-neutral-500">
-            Task Completion
+            Progress Pengisian
           </h2>
           <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
-            70% Completed
+            424 Desa/Kelurahan
           </p>
         </div>
         <div>
@@ -91,6 +92,13 @@ export default function ChartTask() {
           </span>
         </div>
       </div>
+
+      {isLoading && (
+        <div className="flex justify-center items-center h-72">
+          <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
+        </div>
+      )}
+
       <div ref={chartRef} id="task-completion-chart" />
     </div>
   );

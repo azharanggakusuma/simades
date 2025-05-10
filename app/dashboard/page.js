@@ -18,8 +18,8 @@ export default function Dashboard() {
         <div className="p-2 mt-8">
           <Stats />
 
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-8">
-            <div className="h-32 rounded lg:col-span-2">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-8 mb-80 lg:mb-48">
+            <div className="h-32 rounded lg:col-span-2 mb-72 lg:mb-48">
               <ChartVisitor />
             </div>
             <div className="h-32 rounded">
