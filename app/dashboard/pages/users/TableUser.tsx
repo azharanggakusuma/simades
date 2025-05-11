@@ -1,12 +1,11 @@
 import {
-  PlusIcon,
   CheckCircleIcon,
   ExclamationTriangleIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
 } from "@heroicons/react/24/solid";
 
-import { FaEdit, FaTrash } from "react-icons/fa";
+import { FaDownload, FaUserPlus, FaEdit, FaTrash } from "react-icons/fa";
 
 export default function TableUser() {
   return (
@@ -31,13 +30,14 @@ export default function TableUser() {
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                         href="#"
                       >
+                        <FaDownload className="w-4 h-4" />
                         Download
                       </a>
                       <a
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                         href="#"
                       >
-                        <PlusIcon className="shrink-0 size-4" />
+                        <FaUserPlus className="w-4 h-4" />
                         Add user
                       </a>
                     </div>
@@ -163,16 +163,14 @@ export default function TableUser() {
                               type="button"
                               className="px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
-                              <FaEdit className="w-4 h-4 me-2" />
-                              Edit
+                              <FaEdit className="w-4 h-4" />
                             </button>
 
                             <button
                               type="button"
                               className="px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-red-600 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-800"
                             >
-                              <FaTrash className="w-4 h-4 me-2" />
-                              Delete
+                              <FaTrash className="w-4 h-4" />
                             </button>
                           </div>
                         </div>
@@ -244,16 +242,14 @@ export default function TableUser() {
                               type="button"
                               className="px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                             >
-                              <FaEdit className="w-4 h-4 me-2" />
-                              Edit
+                              <FaEdit className="w-4 h-4" />
                             </button>
 
                             <button
                               type="button"
                               className="px-3 py-2 text-xs font-medium text-center inline-flex items-center text-white bg-red-600 rounded-lg hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-800"
                             >
-                              <FaTrash className="w-4 h-4 me-2" />
-                              Delete
+                              <FaTrash className="w-4 h-4" />
                             </button>
                           </div>
                         </div>
