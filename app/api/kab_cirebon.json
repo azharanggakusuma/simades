@@ -1,0 +1,2124 @@
+{
+  "data_desa": [
+    {
+      "Nama_Desa": "WALED DESA",
+      "Kode_Desa": "32.09.01.2008",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "WALED KOTA",
+      "Kode_Desa": "32.09.01.2009",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "MEKARSARI",
+      "Kode_Desa": "32.09.01.2010",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "WALED ASEM",
+      "Kode_Desa": "32.09.01.2011",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "AMBIT",
+      "Kode_Desa": "32.09.01.2012",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "CIUYAH",
+      "Kode_Desa": "32.09.01.2013",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "GUNUNGSARI",
+      "Kode_Desa": "32.09.01.2014",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "KARANGSARI",
+      "Kode_Desa": "32.09.01.2015",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "CIKULAK KIDUL",
+      "Kode_Desa": "32.09.01.2016",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "CIKULAK",
+      "Kode_Desa": "32.09.01.2017",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "CIBOGO",
+      "Kode_Desa": "32.09.01.2018",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "CISAAT",
+      "Kode_Desa": "32.09.01.2019",
+      "Kecamatan": "WALED"
+    },
+    {
+      "Nama_Desa": "TONJONG",
+      "Kode_Desa": "32.09.32.2001",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "TANJUNG ANOM",
+      "Kode_Desa": "32.09.32.2002",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "CILENGKRANG GIRANG",
+      "Kode_Desa": "32.09.32.2003",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "CILENGKRANG",
+      "Kode_Desa": "32.09.32.2004",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "PASALEMAN",
+      "Kode_Desa": "32.09.32.2005",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "CIGOBANGWANGI",
+      "Kode_Desa": "32.09.32.2006",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "CIGOBANG",
+      "Kode_Desa": "32.09.32.2007",
+      "Kecamatan": "PASALEMAN"
+    },
+    {
+      "Nama_Desa": "LEUWEUNGGAJAH",
+      "Kode_Desa": "32.09.02.2008",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "TENJOMAYA",
+      "Kode_Desa": "32.09.02.2009",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "DAMARGUNA",
+      "Kode_Desa": "32.09.02.2010",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "JATISEENG",
+      "Kode_Desa": "32.09.02.2011",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "JATISEENG KIDUL",
+      "Kode_Desa": "32.09.02.2012",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "CILEDUG KULON",
+      "Kode_Desa": "32.09.02.2013",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "CILEDUG WETAN",
+      "Kode_Desa": "32.09.02.2014",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "CILEDUG LOR",
+      "Kode_Desa": "32.09.02.2015",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "CILEDUG TENGAH",
+      "Kode_Desa": "32.09.02.2016",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "BOJONGNEGARA",
+      "Kode_Desa": "32.09.02.2017",
+      "Kecamatan": "CILEDUG"
+    },
+    {
+      "Nama_Desa": "SUKADANA",
+      "Kode_Desa": "32.09.33.2001",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "PABUARAN KIDUL",
+      "Kode_Desa": "32.09.33.2002",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "PABUARAN WETAN",
+      "Kode_Desa": "32.09.33.2003",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "PABUARAN LOR",
+      "Kode_Desa": "32.09.33.2004",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "JATIRENGGANG",
+      "Kode_Desa": "32.09.33.2005",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "HULUBANTENG",
+      "Kode_Desa": "32.09.33.2006",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "HULUBANTENG LOR",
+      "Kode_Desa": "32.09.33.2007",
+      "Kecamatan": "PABUARAN"
+    },
+    {
+      "Nama_Desa": "ASTANALANGGAR",
+      "Kode_Desa": "32.09.03.2001",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "BARISAN",
+      "Kode_Desa": "32.09.03.2002",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "LOSARI KIDUL",
+      "Kode_Desa": "32.09.03.2003",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "PANGGANGSARI",
+      "Kode_Desa": "32.09.03.2004",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "LOSARI LOR",
+      "Kode_Desa": "32.09.03.2005",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "MULYASARI",
+      "Kode_Desa": "32.09.03.2006",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "KALIRAHAYU",
+      "Kode_Desa": "32.09.03.2007",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "KALISARI",
+      "Kode_Desa": "32.09.03.2008",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "AMBULU",
+      "Kode_Desa": "32.09.03.2009",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "TAWANGSARI",
+      "Kode_Desa": "32.09.03.2010",
+      "Kecamatan": "LOSARI"
+    },
+    {
+      "Nama_Desa": "BABAKAN LOSARI",
+      "Kode_Desa": "32.09.04.2012",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "SIDARESMI",
+      "Kode_Desa": "32.09.04.2011",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "KALIBUNTU",
+      "Kode_Desa": "32.09.04.2009",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "DUKUHWIDARA",
+      "Kode_Desa": "32.09.04.2008",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "PASURUAN",
+      "Kode_Desa": "32.09.04.2007",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "KALIMUKTI",
+      "Kode_Desa": "32.09.04.2010",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "PABEDILAN KALER",
+      "Kode_Desa": "32.09.04.2004",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "BABAKAN LOSARI LOR",
+      "Kode_Desa": "32.09.04.2013",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "PABEDILAN KIDUL",
+      "Kode_Desa": "32.09.04.2001",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "PABEDILAN KULON",
+      "Kode_Desa": "32.09.04.2003",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "PABEDILAN WETAN",
+      "Kode_Desa": "32.09.04.2002",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "TERSANA",
+      "Kode_Desa": "32.09.04.2006",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "SILIHASIH",
+      "Kode_Desa": "32.09.04.2005",
+      "Kecamatan": "PABEDILAN"
+    },
+    {
+      "Nama_Desa": "CANGKUANG",
+      "Kode_Desa": "32.09.05.2001",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "SERANG WETAN",
+      "Kode_Desa": "32.09.05.2002",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "BOJONGGEBANG",
+      "Kode_Desa": "32.09.05.2008",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "KUDUKERAS",
+      "Kode_Desa": "32.09.05.2012",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "SUMBER KIDUL",
+      "Kode_Desa": "32.09.05.2009",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "KUDUMULYA",
+      "Kode_Desa": "32.09.05.2011",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "SUMBER LOR",
+      "Kode_Desa": "32.09.05.2010",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "BABAKAN",
+      "Kode_Desa": "32.09.05.2007",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "PAKUSAMBEN",
+      "Kode_Desa": "32.09.05.2013",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "KARANGWANGUN",
+      "Kode_Desa": "32.09.05.2014",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "BABAKAN GEBANG",
+      "Kode_Desa": "32.09.05.2006",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "GEMBONGAN",
+      "Kode_Desa": "32.09.05.2005",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "SERANG KULON",
+      "Kode_Desa": "32.09.05.2003",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "GEMBONGAN MEKAR",
+      "Kode_Desa": "32.09.05.2004",
+      "Kecamatan": "BABAKAN"
+    },
+    {
+      "Nama_Desa": "DOMPYONG KULON",
+      "Kode_Desa": "32.09.30.2001",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "DOMPYONG WETAN",
+      "Kode_Desa": "32.09.30.2002",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "KALIMEKAR",
+      "Kode_Desa": "32.09.30.2003",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "KALIMARO",
+      "Kode_Desa": "32.09.30.2004",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GAGASARI",
+      "Kode_Desa": "32.09.30.2005",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "KALIPASUNG",
+      "Kode_Desa": "32.09.30.2006",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GEBANG KULON",
+      "Kode_Desa": "32.09.30.2007",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GEBANG",
+      "Kode_Desa": "32.09.30.2008",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GEBANG UDIK",
+      "Kode_Desa": "32.09.30.2010",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GEBANG ILIR",
+      "Kode_Desa": "32.09.30.2009",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "GEBANG MEKAR",
+      "Kode_Desa": "32.09.30.2011",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "PELAYANGAN",
+      "Kode_Desa": "32.09.30.2012",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "MELAKASARI",
+      "Kode_Desa": "32.09.30.2013",
+      "Kecamatan": "GEBANG"
+    },
+    {
+      "Nama_Desa": "TAMBELANG",
+      "Kode_Desa": "32.09.06.2006",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KARANGSUWUNG",
+      "Kode_Desa": "32.09.06.2011",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KARANGTENGAH",
+      "Kode_Desa": "32.09.06.2012",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KALIMEANG",
+      "Kode_Desa": "32.09.06.2013",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KARANGMALANG",
+      "Kode_Desa": "32.09.06.2014",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KARANGMEKAR",
+      "Kode_Desa": "32.09.06.2015",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KUBANGKARANG",
+      "Kode_Desa": "32.09.06.2016",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "KARANGSEMBUNG",
+      "Kode_Desa": "32.09.06.2017",
+      "Kecamatan": "KARANGSEMBUNG"
+    },
+    {
+      "Nama_Desa": "SEUSEUPAN",
+      "Kode_Desa": "32.09.34.2001",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "SUMURKONDANG",
+      "Kode_Desa": "32.09.34.2003",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "JATIPIRING",
+      "Kode_Desa": "32.09.34.2005",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "KUBANGDELEG",
+      "Kode_Desa": "32.09.34.2004",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "KARANGANYAR",
+      "Kode_Desa": "32.09.34.2006",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "KARANGWANGI",
+      "Kode_Desa": "32.09.34.2007",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "BLENDER",
+      "Kode_Desa": "32.09.34.2002",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "KARANGWARENG",
+      "Kode_Desa": "32.09.34.2008",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "KARANGASEM",
+      "Kode_Desa": "32.09.34.2009",
+      "Kecamatan": "KARANGWARENG"
+    },
+    {
+      "Nama_Desa": "PICUNGPUGUR",
+      "Kode_Desa": "32.09.07.2010",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "LEUWIDINGDING",
+      "Kode_Desa": "32.09.07.2001",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "ASEM",
+      "Kode_Desa": "32.09.07.2002",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "CIPEUJEUH KULON",
+      "Kode_Desa": "32.09.07.2003",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "SINDANGLAUT",
+      "Kode_Desa": "32.09.07.2005",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "CIPEUJEUH WETAN",
+      "Kode_Desa": "32.09.07.2004",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "LEMAHABANG KULON",
+      "Kode_Desa": "32.09.07.2006",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "LEMAHABANG",
+      "Kode_Desa": "32.09.07.2007",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "SIGONG",
+      "Kode_Desa": "32.09.07.2008",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "SARAJAYA",
+      "Kode_Desa": "32.09.07.2009",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "TUK KARANGSUWUNG",
+      "Kode_Desa": "32.09.07.2011",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "BELAWA",
+      "Kode_Desa": "32.09.07.2012",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "WANGKELANG",
+      "Kode_Desa": "32.09.07.2013",
+      "Kecamatan": "LEMAHABANG"
+    },
+    {
+      "Nama_Desa": "KARANGMANGU",
+      "Kode_Desa": "32.09.08.2001",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "KALIGAWE",
+      "Kode_Desa": "32.09.08.2013",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "KALIGAWE WETAN",
+      "Kode_Desa": "32.09.08.2012",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "CURUG WETAN",
+      "Kode_Desa": "32.09.08.2011",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "CURUG",
+      "Kode_Desa": "32.09.08.2010",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "WILULANG",
+      "Kode_Desa": "32.09.08.2005",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "SUSUKAN AGUNG",
+      "Kode_Desa": "32.09.08.2003",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "SUSUKAN LEBAK",
+      "Kode_Desa": "32.09.08.2002",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "SUSUKAN TONGGOH",
+      "Kode_Desa": "32.09.08.2004",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "SAMPIH",
+      "Kode_Desa": "32.09.08.2006",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "PASAWAHAN",
+      "Kode_Desa": "32.09.08.2007",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "CIAWI ASIH",
+      "Kode_Desa": "32.09.08.2008",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "CIAWIJAPURA",
+      "Kode_Desa": "32.09.08.2009",
+      "Kecamatan": "SUSUKAN LEBAK"
+    },
+    {
+      "Nama_Desa": "KARANGWUNI",
+      "Kode_Desa": "32.09.09.2001",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "SEDONG KIDUL",
+      "Kode_Desa": "32.09.09.2002",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "SEDONG LOR",
+      "Kode_Desa": "32.09.09.2003",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "WINDUJAYA",
+      "Kode_Desa": "32.09.09.2004",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "WINDUHAJI",
+      "Kode_Desa": "32.09.09.2005",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "KERTAWANGUN",
+      "Kode_Desa": "32.09.09.2006",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "PANAMBANGAN",
+      "Kode_Desa": "32.09.09.2007",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "PUTAT",
+      "Kode_Desa": "32.09.09.2008",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "PANONGAN",
+      "Kode_Desa": "32.09.09.2009",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "PANONGAN LOR",
+      "Kode_Desa": "32.09.09.2010",
+      "Kecamatan": "SEDONG"
+    },
+    {
+      "Nama_Desa": "MUNJUL",
+      "Kode_Desa": "32.09.10.2004",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "SIDAMULYA",
+      "Kode_Desa": "32.09.10.2005",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "MERTAPADA KULON",
+      "Kode_Desa": "32.09.10.2006",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "MERTAPADA WETAN",
+      "Kode_Desa": "32.09.10.2007",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "BUNTET",
+      "Kode_Desa": "32.09.10.2008",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "KANCI KULON",
+      "Kode_Desa": "32.09.10.2009",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "KANCI",
+      "Kode_Desa": "32.09.10.2010",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "ASTANAJAPURA",
+      "Kode_Desa": "32.09.10.2011",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "KENDAL",
+      "Kode_Desa": "32.09.10.2012",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "JAPURA KIDUL",
+      "Kode_Desa": "32.09.10.2013",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "JAPURABAKTI",
+      "Kode_Desa": "32.09.10.2014",
+      "Kecamatan": "ASTANAJAPURA"
+    },
+    {
+      "Nama_Desa": "ASTANAMUKTI",
+      "Kode_Desa": "32.09.11.2009",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "PENGARENGAN",
+      "Kode_Desa": "32.09.11.2008",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "JAPURA LOR",
+      "Kode_Desa": "32.09.11.2007",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "BERINGIN",
+      "Kode_Desa": "32.09.11.2006",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "RAWAURIP",
+      "Kode_Desa": "32.09.11.2005",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "BENDUNGAN",
+      "Kode_Desa": "32.09.11.2004",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "PANGENAN",
+      "Kode_Desa": "32.09.11.2003",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "GETRAKMOYAN",
+      "Kode_Desa": "32.09.11.2001",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "ENDER",
+      "Kode_Desa": "32.09.11.2002",
+      "Kecamatan": "PANGENAN"
+    },
+    {
+      "Nama_Desa": "SETUPATOK",
+      "Kode_Desa": "32.09.12.2001",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "PENPEN",
+      "Kode_Desa": "32.09.12.2002",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "MUNDU MESIGIT",
+      "Kode_Desa": "32.09.12.2003",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "LUWUNG",
+      "Kode_Desa": "32.09.12.2004",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "WARUDUWUR",
+      "Kode_Desa": "32.09.12.2005",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "CITEMU",
+      "Kode_Desa": "32.09.12.2006",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "BANDENGAN",
+      "Kode_Desa": "32.09.12.2007",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "MUNDU PESISIR",
+      "Kode_Desa": "32.09.12.2008",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "SUCI",
+      "Kode_Desa": "32.09.12.2009",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "BANJARWANGUNAN",
+      "Kode_Desa": "32.09.12.2010",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "PAMENGKANG",
+      "Kode_Desa": "32.09.12.2011",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "SINARANCANG",
+      "Kode_Desa": "32.09.12.2012",
+      "Kecamatan": "MUNDU"
+    },
+    {
+      "Nama_Desa": "WANAYASA",
+      "Kode_Desa": "32.09.13.2001",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "SINDANGKASIH",
+      "Kode_Desa": "32.09.13.2002",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "SINDANGHAYU",
+      "Kode_Desa": "32.09.13.2003",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "CIAWIGAJAH",
+      "Kode_Desa": "32.09.13.2004",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "CIKANCAS",
+      "Kode_Desa": "32.09.13.2008",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "HALIMPU",
+      "Kode_Desa": "32.09.13.2009",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "CIPINANG",
+      "Kode_Desa": "32.09.13.2010",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "BEBER",
+      "Kode_Desa": "32.09.13.2011",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "PATAPAN",
+      "Kode_Desa": "32.09.13.2012",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "KONDANGSARI",
+      "Kode_Desa": "32.09.13.2013",
+      "Kecamatan": "BEBER"
+    },
+    {
+      "Nama_Desa": "GUMULUNG LEBAK",
+      "Kode_Desa": "32.09.38.2001",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "LEBAK MEKAR",
+      "Kode_Desa": "32.09.38.2002",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "GUMULUNG TONGGOH",
+      "Kode_Desa": "32.09.38.2003",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "KAMARANG",
+      "Kode_Desa": "32.09.38.2004",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "GREGED",
+      "Kode_Desa": "32.09.38.2005",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "KAMARANG LEBAK",
+      "Kode_Desa": "32.09.38.2006",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "DURAJAYA",
+      "Kode_Desa": "32.09.38.2007",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "JATIPANCUR",
+      "Kode_Desa": "32.09.38.2008",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "SINDANG KEMPENG",
+      "Kode_Desa": "32.09.38.2009",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "NANGGELA",
+      "Kode_Desa": "32.09.38.2010",
+      "Kecamatan": "GREGED"
+    },
+    {
+      "Nama_Desa": "SAMPIRAN",
+      "Kode_Desa": "32.09.14.2001",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "CIPERNA",
+      "Kode_Desa": "32.09.14.2002",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "KECOMBERAN",
+      "Kode_Desa": "32.09.14.2003",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "CIREBON GIRANG",
+      "Kode_Desa": "32.09.14.2004",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "KERANDON",
+      "Kode_Desa": "32.09.14.2005",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "WANASABA KIDUL",
+      "Kode_Desa": "32.09.14.2006",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "WANASABA LOR",
+      "Kode_Desa": "32.09.14.2007",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "CEMPAKA",
+      "Kode_Desa": "32.09.14.2008",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "KEPONGPONGAN",
+      "Kode_Desa": "32.09.14.2009",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "KUBANG",
+      "Kode_Desa": "32.09.14.2011",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "SARWADADI",
+      "Kode_Desa": "32.09.14.2010",
+      "Kecamatan": "TALUN"
+    },
+    {
+      "Nama_Desa": "MATANGAJI",
+      "Kode_Desa": "32.09.15.2001",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "SIDAWANGI",
+      "Kode_Desa": "32.09.15.2002",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "BABAKAN",
+      "Kode_Desa": "32.09.15.1003",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "SUMBER",
+      "Kode_Desa": "32.09.15.1004",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "PERBUTULAN",
+      "Kode_Desa": "32.09.15.1005",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "KEMANTREN",
+      "Kode_Desa": "32.09.15.1011",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "SENDANG",
+      "Kode_Desa": "32.09.15.1012",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "GEGUNUNG",
+      "Kode_Desa": "32.09.15.1010",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "PEJAMBON",
+      "Kode_Desa": "32.09.15.1009",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "WATUBELAH",
+      "Kode_Desa": "32.09.15.1008",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "PASALAKAN",
+      "Kode_Desa": "32.09.15.1007",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "KALIWADAS",
+      "Kode_Desa": "32.09.15.1006",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "TUKMUDAL",
+      "Kode_Desa": "32.09.15.1013",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "KENANGA",
+      "Kode_Desa": "32.09.15.1014",
+      "Kecamatan": "SUMBER"
+    },
+    {
+      "Nama_Desa": "BOBOS",
+      "Kode_Desa": "32.09.16.2001",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "CIKALAHANG",
+      "Kode_Desa": "32.09.16.2002",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "MANDALA",
+      "Kode_Desa": "32.09.16.2003",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "CISAAT",
+      "Kode_Desa": "32.09.16.2007",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "SINDANGJAWA",
+      "Kode_Desa": "32.09.16.2009",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "SINDANGMEKAR",
+      "Kode_Desa": "32.09.16.2008",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "CANGKOAK",
+      "Kode_Desa": "32.09.16.2006",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "KEPUNDUAN",
+      "Kode_Desa": "32.09.16.2010",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "BALAD",
+      "Kode_Desa": "32.09.16.2005",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "DUKUPUNTANG",
+      "Kode_Desa": "32.09.16.2004",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "CIPANAS",
+      "Kode_Desa": "32.09.16.2012",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "GIRINATA",
+      "Kode_Desa": "32.09.16.2011",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "KEDONGDONG KIDUL",
+      "Kode_Desa": "32.09.16.2013",
+      "Kecamatan": "DUKUPUNTANG"
+    },
+    {
+      "Nama_Desa": "KEPUH",
+      "Kode_Desa": "32.09.17.2003",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "CILUKRAK",
+      "Kode_Desa": "32.09.17.2002",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "BALERANTE",
+      "Kode_Desa": "32.09.17.2004",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "PANONGAN",
+      "Kode_Desa": "32.09.17.2005",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "BEBERAN",
+      "Kode_Desa": "32.09.17.2006",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "SEMPLO",
+      "Kode_Desa": "32.09.17.2007",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "PALIMANAN TIMUR",
+      "Kode_Desa": "32.09.17.2008",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "PEGAGAN",
+      "Kode_Desa": "32.09.17.2011",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "LUNGBENDA",
+      "Kode_Desa": "32.09.17.2012",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "CIAWI",
+      "Kode_Desa": "32.09.17.2013",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "CENGKUANG",
+      "Kode_Desa": "32.09.17.2015",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "TEGALKARANG",
+      "Kode_Desa": "32.09.17.2014",
+      "Kecamatan": "PALIMANAN"
+    },
+    {
+      "Nama_Desa": "CEMPAKA",
+      "Kode_Desa": "32.09.18.2001",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "PAMIJAHAN",
+      "Kode_Desa": "32.09.18.2002",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "LURAH",
+      "Kode_Desa": "32.09.18.2003",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "MARIKANGEN",
+      "Kode_Desa": "32.09.18.2004",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "BODE LOR",
+      "Kode_Desa": "32.09.18.2005",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "BODESARI",
+      "Kode_Desa": "32.09.18.2006",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "GOMBANG",
+      "Kode_Desa": "32.09.18.2007",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "KARANGMULYA",
+      "Kode_Desa": "32.09.18.2008",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "KARANGASEM",
+      "Kode_Desa": "32.09.18.2009",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "PLUMBON",
+      "Kode_Desa": "32.09.18.2010",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "PURBAWINANGUN",
+      "Kode_Desa": "32.09.18.2011",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "KEBAREPAN",
+      "Kode_Desa": "32.09.18.2012",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "PASANGGRAHAN",
+      "Kode_Desa": "32.09.18.2013",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "KEDUNGSANA",
+      "Kode_Desa": "32.09.18.2014",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "DANAMULYA",
+      "Kode_Desa": "32.09.18.2015",
+      "Kecamatan": "PLUMBON"
+    },
+    {
+      "Nama_Desa": "CIKEDUK",
+      "Kode_Desa": "32.09.31.2001",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "WARUGEDE",
+      "Kode_Desa": "32.09.31.2004",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KARANGWANGI",
+      "Kode_Desa": "32.09.31.2012",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "GETASAN",
+      "Kode_Desa": "32.09.31.2011",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KEJUDEN",
+      "Kode_Desa": "32.09.31.2010",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KEDUANAN",
+      "Kode_Desa": "32.09.31.2009",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "WARUROYOM",
+      "Kode_Desa": "32.09.31.2005",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "WARUKAWUNG",
+      "Kode_Desa": "32.09.31.2003",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "WARUJAYA",
+      "Kode_Desa": "32.09.31.2002",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "DEPOK",
+      "Kode_Desa": "32.09.31.2006",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KASUGENGAN KIDUL",
+      "Kode_Desa": "32.09.31.2007",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KASUGENGAN LOR",
+      "Kode_Desa": "32.09.31.2008",
+      "Kecamatan": "DEPOK"
+    },
+    {
+      "Nama_Desa": "KARANGSARI",
+      "Kode_Desa": "32.09.19.2001",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "KERTASARI",
+      "Kode_Desa": "32.09.19.2002",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "MEGU CILIK",
+      "Kode_Desa": "32.09.19.2004",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "MEGU GEDE",
+      "Kode_Desa": "32.09.19.2003",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "SETU WETAN",
+      "Kode_Desa": "32.09.19.2005",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "WERU KIDUL",
+      "Kode_Desa": "32.09.19.2007",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "SETU KULON",
+      "Kode_Desa": "32.09.19.2006",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "TEGALWANGI",
+      "Kode_Desa": "32.09.19.2009",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "WERU LOR",
+      "Kode_Desa": "32.09.19.2008",
+      "Kecamatan": "WERU"
+    },
+    {
+      "Nama_Desa": "PANEMBAHAN",
+      "Kode_Desa": "32.09.36.2003",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "TRUSMI WETAN",
+      "Kode_Desa": "32.09.36.2004",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "TRUSMI KULON",
+      "Kode_Desa": "32.09.36.2005",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "SARABAU",
+      "Kode_Desa": "32.09.36.2008",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "GAMEL",
+      "Kode_Desa": "32.09.36.2007",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "WOTGALI",
+      "Kode_Desa": "32.09.36.2006",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "KALIWULU",
+      "Kode_Desa": "32.09.36.2002",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "TEGALSARI",
+      "Kode_Desa": "32.09.36.2001",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "CANGKRING",
+      "Kode_Desa": "32.09.36.2009",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "PANGKALAN",
+      "Kode_Desa": "32.09.36.2010",
+      "Kecamatan": "PLERED"
+    },
+    {
+      "Nama_Desa": "PALIR",
+      "Kode_Desa": "32.09.35.2001",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "ASTAPADA",
+      "Kode_Desa": "32.09.35.2002",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "GESIK",
+      "Kode_Desa": "32.09.35.2003",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "KEMLAKAGEDE",
+      "Kode_Desa": "32.09.35.2004",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "DAWUAN",
+      "Kode_Desa": "32.09.35.2005",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "BATEMBAT",
+      "Kode_Desa": "32.09.35.2006",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "KALIBARU",
+      "Kode_Desa": "32.09.35.2007",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "KALITENGAH",
+      "Kode_Desa": "32.09.35.2008",
+      "Kecamatan": "TENGAH TANI"
+    },
+    {
+      "Nama_Desa": "KALIKOA",
+      "Kode_Desa": "32.09.20.2005",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "KEDUNGDAWA",
+      "Kode_Desa": "32.09.20.2004",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "TUK",
+      "Kode_Desa": "32.09.20.2006",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "KEDUNGJAYA",
+      "Kode_Desa": "32.09.20.2007",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "KEDAWUNG",
+      "Kode_Desa": "32.09.20.2008",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "KERTAWINANGUN",
+      "Kode_Desa": "32.09.20.2009",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "SUTAWINANGUN",
+      "Kode_Desa": "32.09.20.2010",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "PILANGSARI",
+      "Kode_Desa": "32.09.20.2011",
+      "Kecamatan": "KEDAWUNG"
+    },
+    {
+      "Nama_Desa": "ADIDHARMA",
+      "Kode_Desa": "32.09.21.2001",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "PASINDANGAN",
+      "Kode_Desa": "32.09.21.2002",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "JADIMULYA",
+      "Kode_Desa": "32.09.21.2003",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "KLAYAN",
+      "Kode_Desa": "32.09.21.2004",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "JATIMERTA",
+      "Kode_Desa": "32.09.21.2005",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "ASTANA",
+      "Kode_Desa": "32.09.21.2006",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "KALISAPU",
+      "Kode_Desa": "32.09.21.2007",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "WANAKAYA",
+      "Kode_Desa": "32.09.21.2008",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "GROGOL",
+      "Kode_Desa": "32.09.21.2009",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "BABADAN",
+      "Kode_Desa": "32.09.21.2010",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "BUYUT",
+      "Kode_Desa": "32.09.21.2011",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "MAYUNG",
+      "Kode_Desa": "32.09.21.2012",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "SAMBENG",
+      "Kode_Desa": "32.09.39.2001",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "SIRNABAYA",
+      "Kode_Desa": "32.09.39.2002",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "MERTASINGA",
+      "Kode_Desa": "32.09.21.2015",
+      "Kecamatan": "GUNUNG JATI"
+    },
+    {
+      "Nama_Desa": "BUNGKO",
+      "Kode_Desa": "32.09.22.2017",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "KERTASURA",
+      "Kode_Desa": "32.09.22.2010",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "PEGAGAN KIDUL",
+      "Kode_Desa": "32.09.22.2011",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "PEGAGAN LOR",
+      "Kode_Desa": "32.09.22.2012",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "DUKUH",
+      "Kode_Desa": "32.09.22.2013",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "KARANGKENDAL",
+      "Kode_Desa": "32.09.22.2014",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "GROGOL",
+      "Kode_Desa": "32.09.22.2015",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "KAPETAKAN",
+      "Kode_Desa": "32.09.22.2016",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "BUNGKO LOR",
+      "Kode_Desa": "32.09.22.2018",
+      "Kecamatan": "KAPETAKAN"
+    },
+    {
+      "Nama_Desa": "SURANENGGALA KULON",
+      "Kode_Desa": "32.09.39.2009",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "SURAKARTA",
+      "Kode_Desa": "32.09.39.2006",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "KERATON",
+      "Kode_Desa": "32.09.39.2005",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "PURWAWINANGUN",
+      "Kode_Desa": "32.09.39.2004",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "MUARA",
+      "Kode_Desa": "32.09.39.2003",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "KARANGREJA",
+      "Kode_Desa": "32.09.39.2007",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "SURANENGGALA KIDUL",
+      "Kode_Desa": "32.09.39.2008",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "SURANENGGALA LOR",
+      "Kode_Desa": "32.09.39.2010",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "SURANENGGALA",
+      "Kode_Desa": "32.09.39.2011",
+      "Kecamatan": "SURANENGGALA"
+    },
+    {
+      "Nama_Desa": "SERANG",
+      "Kode_Desa": "32.09.23.2001",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "KLANGENAN",
+      "Kode_Desa": "32.09.23.2002",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "DANAWINANGUN",
+      "Kode_Desa": "32.09.23.2003",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "PEKANTINGAN",
+      "Kode_Desa": "32.09.23.2007",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "JEMARAS KIDUL",
+      "Kode_Desa": "32.09.23.2008",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "JEMARAS LOR",
+      "Kode_Desa": "32.09.23.2009",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "SLANGIT",
+      "Kode_Desa": "32.09.23.2010",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "KREYO",
+      "Kode_Desa": "32.09.23.2011",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "BANGODUA",
+      "Kode_Desa": "32.09.23.2012",
+      "Kecamatan": "KLANGENAN"
+    },
+    {
+      "Nama_Desa": "JAMBLANG",
+      "Kode_Desa": "32.09.40.2001",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "SITIWINANGUN",
+      "Kode_Desa": "32.09.40.2002",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "WANGUNHARJA",
+      "Kode_Desa": "32.09.40.2003",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "BOJONG WETAN",
+      "Kode_Desa": "32.09.40.2004",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "BOJONG LOR",
+      "Kode_Desa": "32.09.40.2005",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "ORIMALANG",
+      "Kode_Desa": "32.09.40.2006",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "BAKUNG KIDUL",
+      "Kode_Desa": "32.09.40.2007",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "BAKUNG LOR",
+      "Kode_Desa": "32.09.40.2008",
+      "Kecamatan": "JAMBLANG"
+    },
+    {
+      "Nama_Desa": "SENDE",
+      "Kode_Desa": "32.09.24.2001",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "JUNGJANG WETAN",
+      "Kode_Desa": "32.09.24.2002",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "JUNGJANG",
+      "Kode_Desa": "32.09.24.2003",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "ARJAWINANGUN",
+      "Kode_Desa": "32.09.24.2004",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "TEGALGUBUG",
+      "Kode_Desa": "32.09.24.2005",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "RAWAGATEL",
+      "Kode_Desa": "32.09.24.2007",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "TEGALGUBUG LOR",
+      "Kode_Desa": "32.09.24.2006",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "KARANGSAMBUNG",
+      "Kode_Desa": "32.09.24.2008",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "BULAK",
+      "Kode_Desa": "32.09.24.2009",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "GEYONGAN",
+      "Kode_Desa": "32.09.24.2010",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "KEBONTURI",
+      "Kode_Desa": "32.09.24.2011",
+      "Kecamatan": "ARJAWINANGUN"
+    },
+    {
+      "Nama_Desa": "KALIANYAR",
+      "Kode_Desa": "32.09.25.2001",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "PANGURAGAN KULON",
+      "Kode_Desa": "32.09.25.2002",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "PANGURAGAN WETAN",
+      "Kode_Desa": "32.09.25.2003",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "PANGURAGAN LOR",
+      "Kode_Desa": "32.09.25.2004",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "PANGURAGAN",
+      "Kode_Desa": "32.09.25.2005",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "GUJEG",
+      "Kode_Desa": "32.09.25.2006",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "LEMAHTAMBA",
+      "Kode_Desa": "32.09.25.2007",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "KARANGANYAR",
+      "Kode_Desa": "32.09.25.2008",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "KROYA",
+      "Kode_Desa": "32.09.25.2009",
+      "Kecamatan": "PANGURAGAN"
+    },
+    {
+      "Nama_Desa": "CIWARINGIN",
+      "Kode_Desa": "32.09.26.2006",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "BABAKAN",
+      "Kode_Desa": "32.09.26.2005",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "BUDUR",
+      "Kode_Desa": "32.09.26.2004",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "GINTUNGRANJENG",
+      "Kode_Desa": "32.09.26.2007",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "GINTUNG KIDUL",
+      "Kode_Desa": "32.09.26.2008",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "GINTUNG TENGAH",
+      "Kode_Desa": "32.09.26.2009",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "BRINGIN",
+      "Kode_Desa": "32.09.26.2010",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "GALAGAMBA",
+      "Kode_Desa": "32.09.26.2011",
+      "Kecamatan": "CIWARINGIN"
+    },
+    {
+      "Nama_Desa": "CUPANG",
+      "Kode_Desa": "32.09.37.2004",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "CIKEUSAL",
+      "Kode_Desa": "32.09.37.2001",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "WALAHAR",
+      "Kode_Desa": "32.09.37.2006",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "PALIMANAN BARAT",
+      "Kode_Desa": "32.09.37.2002",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "GEMPOL",
+      "Kode_Desa": "32.09.37.2005",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "KEDUNGBUNDER",
+      "Kode_Desa": "32.09.37.2003",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "KEMPEK",
+      "Kode_Desa": "32.09.37.2007",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "WINONG",
+      "Kode_Desa": "32.09.37.2008",
+      "Kecamatan": "GEMPOL"
+    },
+    {
+      "Nama_Desa": "TANGKIL",
+      "Kode_Desa": "32.09.27.2001",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "WIYONG",
+      "Kode_Desa": "32.09.27.2002",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "KEDONGDONG",
+      "Kode_Desa": "32.09.27.2003",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "GINTUNG LOR",
+      "Kode_Desa": "32.09.27.2004",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "BOJONG KULON",
+      "Kode_Desa": "32.09.27.2005",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "KEJIWAN",
+      "Kode_Desa": "32.09.27.2006",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "SUSUKAN",
+      "Kode_Desa": "32.09.27.2007",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "LUWUNG KENCANA",
+      "Kode_Desa": "32.09.27.2008",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "BUNDER",
+      "Kode_Desa": "32.09.27.2009",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "JATIPURA",
+      "Kode_Desa": "32.09.27.2010",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "UJUNGGEBANG",
+      "Kode_Desa": "32.09.27.2011",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "JATIANOM",
+      "Kode_Desa": "32.09.27.2012",
+      "Kecamatan": "SUSUKAN"
+    },
+    {
+      "Nama_Desa": "BAYALANGU KIDUL",
+      "Kode_Desa": "32.09.28.2014",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "BAYALANGU LOR",
+      "Kode_Desa": "32.09.28.2013",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "KEDUNGDALEM",
+      "Kode_Desa": "32.09.28.2001",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "PANUNGGUL",
+      "Kode_Desa": "32.09.28.2002",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "GEGESIK WETAN",
+      "Kode_Desa": "32.09.28.2003",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "GEGESIK KIDUL",
+      "Kode_Desa": "32.09.28.2004",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "SLENDRA",
+      "Kode_Desa": "32.09.28.2007",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "JAGAPURA KIDUL",
+      "Kode_Desa": "32.09.28.2008",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "GEGESIK LOR",
+      "Kode_Desa": "32.09.28.2005",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "GEGESIK KULON",
+      "Kode_Desa": "32.09.28.2006",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "JAGAPURA WETAN",
+      "Kode_Desa": "32.09.28.2009",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "JAGAPURA KULON",
+      "Kode_Desa": "32.09.28.2010",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "JAGAPURA LOR",
+      "Kode_Desa": "32.09.28.2011",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "SIBUBUT",
+      "Kode_Desa": "32.09.28.2012",
+      "Kecamatan": "GEGESIK"
+    },
+    {
+      "Nama_Desa": "KALIDERES",
+      "Kode_Desa": "32.09.29.2001",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "PRAJAWINANGUN WETAN",
+      "Kode_Desa": "32.09.29.2003",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "PRAJAWINANGUN KULON",
+      "Kode_Desa": "32.09.29.2002",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "KALIWEDI KIDUL",
+      "Kode_Desa": "32.09.29.2007",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "KALIWEDI LOR",
+      "Kode_Desa": "32.09.29.2006",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "UJUNGSEMI",
+      "Kode_Desa": "32.09.29.2004",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "WARGABINANGUN",
+      "Kode_Desa": "32.09.29.2005",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "GUWA KIDUL",
+      "Kode_Desa": "32.09.29.2008",
+      "Kecamatan": "KALIWEDI"
+    },
+    {
+      "Nama_Desa": "GUWA LOR",
+      "Kode_Desa": "32.09.29.2009",
+      "Kecamatan": "KALIWEDI"
+    }
+  ]
+}
