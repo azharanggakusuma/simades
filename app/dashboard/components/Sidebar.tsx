@@ -56,7 +56,7 @@ export default function Sidebar() {
         <ul className="space-y-2 font-medium">
           <li>
             <a
-              href="#"
+              href="/dashboard"
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <MdDashboard className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
@@ -99,7 +99,7 @@ export default function Sidebar() {
 
           <li>
             <a
-              href="#"
+              href="/dashboard/pages/users"
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <MdGroup className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
