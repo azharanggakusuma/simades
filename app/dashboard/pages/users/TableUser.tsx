@@ -1,6 +1,5 @@
 import {
   PlusIcon,
-  CheckIcon,
   CheckCircleIcon,
   ExclamationTriangleIcon,
   ChevronLeftIcon,
@@ -23,9 +22,6 @@ export default function TableUser() {
                     <h2 className="text-xl font-semibold text-gray-800 dark:text-neutral-200">
                       Users
                     </h2>
-                    <p className="text-sm text-gray-600 dark:text-neutral-400">
-                      Add users, edit and more.
-                    </p>
                   </div>
                   <div>
                     <div className="inline-flex gap-x-2">
@@ -52,32 +48,25 @@ export default function TableUser() {
                   <thead className="bg-gray-50 dark:bg-neutral-800">
                     <tr>
                       <th scope="col" className="ps-6 py-3 text-start">
-                        <label
-                          htmlFor="hs-at-with-checkboxes-main"
-                          className="flex"
-                        >
-                          <input
-                            type="checkbox"
-                            className="shrink-0 border-gray-300 rounded-sm text-blue-600 focus:ring-blue-500 checked:border-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                            id="hs-at-with-checkboxes-main"
-                          />
-                          <span className="sr-only">Checkbox</span>
-                        </label>
+                        <span className="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
+                          #
+                        </span>
                       </th>
+
                       <th
                         scope="col"
                         className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3 text-start"
                       >
                         <div className="flex items-center gap-x-2">
                           <span className="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
-                            Name
+                            Level
                           </span>
                         </div>
                       </th>
                       <th scope="col" className="px-6 py-3 text-start">
                         <div className="flex items-center gap-x-2">
                           <span className="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
-                            Position
+                            Nama
                           </span>
                         </div>
                       </th>
@@ -91,14 +80,14 @@ export default function TableUser() {
                       <th scope="col" className="px-6 py-3 text-start">
                         <div className="flex items-center gap-x-2">
                           <span className="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
-                            Portfolio
+                            Progres
                           </span>
                         </div>
                       </th>
                       <th scope="col" className="px-6 py-3 text-start">
                         <div className="flex items-center gap-x-2">
                           <span className="text-xs font-semibold uppercase text-gray-800 dark:text-neutral-200">
-                            Created
+                            Password
                           </span>
                         </div>
                       </th>
@@ -109,29 +98,16 @@ export default function TableUser() {
                   <tbody className="divide-y divide-gray-200 dark:divide-neutral-700">
                     <tr>
                       <td className="size-px whitespace-nowrap">
-                        <div className="ps-6 py-3">
-                          <label
-                            htmlFor="hs-at-with-checkboxes-1"
-                            className="flex"
-                          >
-                            <input
-                              type="checkbox"
-                              className="shrink-0 border-gray-300 rounded-sm text-blue-600 focus:ring-blue-500 checked:border-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-1"
-                            />
-                            <span className="sr-only">Checkbox</span>
-                          </label>
+                        <div className="ps-6 py-3 text-sm font-semibold text-gray-800 dark:text-neutral-200">
+                          1
                         </div>
                       </td>
                       <td className="size-px whitespace-nowrap">
                         <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                           <div className="flex items-center gap-x-3">
                             <div className="grow">
-                              <span className="block text-sm font-semibold text-gray-800 dark:text-neutral-200">
-                                Christina Bersh
-                              </span>
                               <span className="block text-sm text-gray-500 dark:text-neutral-500">
-                                christina@site.com
+                                Desa
                               </span>
                             </div>
                           </div>
@@ -139,11 +115,8 @@ export default function TableUser() {
                       </td>
                       <td className="h-px w-72 whitespace-nowrap">
                         <div className="px-6 py-3">
-                          <span className="block text-sm font-semibold text-gray-800 dark:text-neutral-200">
-                            Director
-                          </span>
                           <span className="block text-sm text-gray-500 dark:text-neutral-500">
-                            Human resources
+                            Nama 1
                           </span>
                         </div>
                       </td>
@@ -151,7 +124,7 @@ export default function TableUser() {
                         <div className="px-6 py-3">
                           <span className="py-1 px-1.5 inline-flex items-center gap-x-1 text-xs font-medium bg-teal-100 text-teal-800 rounded-full dark:bg-teal-500/10 dark:text-teal-500">
                             <CheckCircleIcon className="size-3" />
-                            Active
+                            Aktif
                           </span>
                         </div>
                       </td>
@@ -177,7 +150,7 @@ export default function TableUser() {
                       <td className="size-px whitespace-nowrap">
                         <div className="px-6 py-3">
                           <span className="text-sm text-gray-500 dark:text-neutral-500">
-                            28 Dec, 12:12
+                            jfhhihf7r84n474
                           </span>
                         </div>
                       </td>
@@ -194,29 +167,17 @@ export default function TableUser() {
                     </tr>
                     <tr>
                       <td className="size-px whitespace-nowrap">
-                        <div className="ps-6 py-3">
-                          <label
-                            htmlFor="hs-at-with-checkboxes-2"
-                            className="flex"
-                          >
-                            <input
-                              type="checkbox"
-                              className="shrink-0 border-gray-300 rounded-sm text-blue-600 focus:ring-blue-500 checked:border-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-800 dark:border-neutral-600 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800"
-                              id="hs-at-with-checkboxes-2"
-                            />
-                            <span className="sr-only">Checkbox</span>
-                          </label>
+                        <div className="ps-6 py-3 text-sm font-semibold text-gray-800 dark:text-neutral-200">
+                          2
                         </div>
                       </td>
+
                       <td className="size-px whitespace-nowrap">
                         <div className="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
                           <div className="flex items-center gap-x-3">
                             <div className="grow">
-                              <span className="block text-sm font-semibold text-gray-800 dark:text-neutral-200">
-                                David Harrison
-                              </span>
                               <span className="block text-sm text-gray-500 dark:text-neutral-500">
-                                david@site.com
+                                Kecamatan
                               </span>
                             </div>
                           </div>
@@ -224,11 +185,8 @@ export default function TableUser() {
                       </td>
                       <td className="h-px w-72 whitespace-nowrap">
                         <div className="px-6 py-3">
-                          <span className="block text-sm font-semibold text-gray-800 dark:text-neutral-200">
-                            Seller
-                          </span>
                           <span className="block text-sm text-gray-500 dark:text-neutral-500">
-                            Branding products
+                            Nama 2
                           </span>
                         </div>
                       </td>
@@ -236,7 +194,7 @@ export default function TableUser() {
                         <div className="px-6 py-3">
                           <span className="py-1 px-1.5 inline-flex items-center gap-x-1 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full dark:bg-yellow-500/10 dark:text-yellow-500">
                             <ExclamationTriangleIcon className="size-3" />
-                            Warning
+                            Tidak Aktif
                           </span>
                         </div>
                       </td>
@@ -262,7 +220,7 @@ export default function TableUser() {
                       <td className="size-px whitespace-nowrap">
                         <div className="px-6 py-3">
                           <span className="text-sm text-gray-500 dark:text-neutral-500">
-                            20 Dec, 09:27
+                            vrknvnr874bnv
                           </span>
                         </div>
                       </td>
