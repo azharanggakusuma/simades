@@ -1,10 +1,5 @@
-import {
-  CheckCircleIcon,
-  ExclamationTriangleIcon,
-  ChevronLeftIcon,
-  ChevronRightIcon,
-} from "@heroicons/react/24/solid";
-
+import { CheckCircleIcon, ExclamationTriangleIcon } from "@heroicons/react/24/solid";
+import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import { FaDownload, FaUserPlus, FaEdit, FaTrash } from "react-icons/fa";
 
 export default function TableUser() {
@@ -274,7 +269,7 @@ export default function TableUser() {
                         type="button"
                         className="py-1.5 px-2 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                       >
-                        <ChevronLeftIcon className="shrink-0 size-3.5" />
+                        <MdChevronLeft className="w-5 h-5" />
                         Prev
                       </button>
                       <button
@@ -282,7 +277,7 @@ export default function TableUser() {
                         className="py-1.5 px-2 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                       >
                         Next
-                        <ChevronRightIcon className="shrink-0 size-3.5" />
+                        <MdChevronRight className="w-5 h-5" />
                       </button>
                     </div>
                   </div>
