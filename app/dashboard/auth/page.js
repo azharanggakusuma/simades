@@ -116,19 +116,6 @@ export default function Login() {
               </select>
             </div>
 
-            {/* Ingat Saya */}
-            {/*<div className="flex items-center space-x-2">
-              <input
-                id="remember-me"
-                name="remember-me"
-                type="checkbox"
-                className="h-4 w-4 text-blue-600 border-gray-300 rounded dark:bg-neutral-800 dark:border-neutral-700"
-              />
-              <label htmlFor="remember-me" className="text-sm dark:text-white">
-                Ingat saya
-              </label>
-            </div>*/}
-
             {/* Tombol Login */}
             <button
               type="submit"
@@ -137,20 +124,6 @@ export default function Login() {
               Login
             </button>
           </form>
-
-          {/* Link Lupa Password */}
-          {/*<div className="mt-6 text-center">
-            <p className="text-sm text-gray-600 dark:text-neutral-400">
-              Lupa kata sandi?{" "}
-              <a
-                href="../examples/html/recover-account.html"
-                className="text-blue-600 hover:underline font-medium dark:text-blue-500"
-              >
-                Reset disini
-              </a>
-            </p>
-          </div>*/}
-          
         </div>
       </div>
     </div>
