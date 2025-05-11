@@ -31,7 +31,7 @@ export default function Sidebar() {
       buttonsStyling: false,
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = "/login";
+        window.location.href = "/dashboard/auth";
       }
     });
   };
