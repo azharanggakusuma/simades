@@ -6,28 +6,29 @@ import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/solid";
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
+  const [loginType, setLoginType] = useState("desa"); // 'desa' or 'admin'
   const [desaOptions, setDesaOptions] = useState([]);
 
-  // Daftar tahun pengisian
   const years = Array.from({ length: 5 }, (_, index) => 2024 + index);
 
-  // Ambil data desa dari file JSON
   useEffect(() => {
-    fetch("/api/kab_cirebon.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const sortedData = [...data.data_desa].sort((a, b) =>
-          a.Nama_Desa.localeCompare(b.Nama_Desa)
-        );
+    if (loginType === "desa") {
+      fetch("/api/kab_cirebon.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const sortedData = [...data.data_desa].sort((a, b) =>
+            a.Nama_Desa.localeCompare(b.Nama_Desa)
+          );
 
-        const options = sortedData.map((desa) => ({
-          value: desa.Kode_Desa,
-          label: `${desa.Nama_Desa} - ${desa.Kecamatan}`,
-        }));
+          const options = sortedData.map((desa) => ({
+            value: desa.Kode_Desa,
+            label: `${desa.Nama_Desa} - ${desa.Kecamatan}`,
+          }));
 
-        setDesaOptions(options);
-      });
-  }, []);
+          setDesaOptions(options);
+        });
+    }
+  }, [loginType]);
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-gray-100 dark:bg-neutral-950">
@@ -40,34 +41,87 @@ export default function Login() {
           </div>
 
           <form className="space-y-6">
-            {/* Select Nama Desa */}
-            <div>
-              <label
-                htmlFor="username"
-                className="block text-sm font-medium mb-2 dark:text-white"
-              >
+            {/* Radio Login Type */}
+            <div className="mb-4">
+              <label className="block text-sm font-medium mb-2 dark:text-white">
                 Login sebagai
               </label>
-              <Select
-                inputId="username"
-                name="username"
-                options={desaOptions}
-                placeholder="Cari dan pilih nama desa..."
-                className="text-sm"
-                isSearchable
-              />
+              <div className="flex space-x-4">
+                <label className="flex items-center text-sm dark:text-white">
+                  <input
+                    type="radio"
+                    name="loginType"
+                    value="desa"
+                    checked={loginType === "desa"}
+                    onChange={() => setLoginType("desa")}
+                    className="mr-2"
+                  />
+                  Desa
+                </label>
+                <label className="flex items-center text-sm dark:text-white">
+                  <input
+                    type="radio"
+                    name="loginType"
+                    value="admin"
+                    checked={loginType === "admin"}
+                    onChange={() => setLoginType("admin")}
+                    className="mr-2"
+                  />
+                  Admin
+                </label>
+              </div>
             </div>
+
+            {loginType === "desa" ? (
+              <>
+                {/* Select Nama Desa */}
+                <div>
+                  <label
+                    htmlFor="username"
+                    className="block text-sm font-medium mb-2 dark:text-white"
+                  >
+                    Nama Desa
+                  </label>
+                  <Select
+                    inputId="username"
+                    name="username"
+                    options={desaOptions}
+                    placeholder="Cari dan pilih nama desa..."
+                    className="text-sm"
+                    isSearchable
+                  />
+                </div>
+              </>
+            ) : (
+              <>
+                {/* Input Username */}
+                <div>
+                  <label
+                    htmlFor="username"
+                    className="block text-sm font-medium mb-2 dark:text-white"
+                  >
+                    Username
+                  </label>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Masukan username"
+                    className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                    required
+                  />
+                </div>
+              </>
+            )}
 
             {/* Password */}
             <div>
-              <div className="flex justify-between items-center mb-2">
-                <label
-                  htmlFor="password"
-                  className="block text-sm font-medium dark:text-white"
-                >
-                  Password
-                </label>
-              </div>
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium mb-2 dark:text-white"
+              >
+                Password
+              </label>
               <div className="relative">
                 <input
                   type={showPassword ? "text" : "password"}
@@ -91,30 +145,32 @@ export default function Login() {
               </div>
             </div>
 
-            {/* Tahun Pengisian */}
-            <div>
-              <label
-                htmlFor="year"
-                className="block text-sm font-medium mb-2 dark:text-white"
-              >
-                Tahun Pengisian
-              </label>
-              <select
-                id="year"
-                name="year"
-                className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
-                required
-              >
-                <option value="" disabled selected>
-                  Pilih tahun pengisian
-                </option>
-                {years.map((year) => (
-                  <option key={year} value={year}>
-                    {year}
+            {/* Tahun Pengisian (hanya untuk Desa) */}
+            {loginType === "desa" && (
+              <div>
+                <label
+                  htmlFor="year"
+                  className="block text-sm font-medium mb-2 dark:text-white"
+                >
+                  Tahun Pengisian
+                </label>
+                <select
+                  id="year"
+                  name="year"
+                  className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Pilih tahun pengisian
                   </option>
-                ))}
-              </select>
-            </div>
+                  {years.map((year) => (
+                    <option key={year} value={year}>
+                      {year}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
 
             {/* Tombol Login */}
             <button
