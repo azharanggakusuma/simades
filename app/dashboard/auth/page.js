@@ -117,7 +117,7 @@ export default function Login() {
             </div>
 
             {/* Ingat Saya */}
-            <div className="flex items-center space-x-2">
+            {/*<div className="flex items-center space-x-2">
               <input
                 id="remember-me"
                 name="remember-me"
@@ -127,7 +127,7 @@ export default function Login() {
               <label htmlFor="remember-me" className="text-sm dark:text-white">
                 Ingat saya
               </label>
-            </div>
+            </div>*/}
 
             {/* Tombol Login */}
             <button
@@ -139,7 +139,7 @@ export default function Login() {
           </form>
 
           {/* Link Lupa Password */}
-          <div className="mt-6 text-center">
+          {/*<div className="mt-6 text-center">
             <p className="text-sm text-gray-600 dark:text-neutral-400">
               Lupa kata sandi?{" "}
               <a
@@ -149,7 +149,8 @@ export default function Login() {
                 Reset disini
               </a>
             </p>
-          </div>
+          </div>*/}
+          
         </div>
       </div>
     </div>
