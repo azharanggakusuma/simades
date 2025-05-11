@@ -7,9 +7,11 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Post {
-  id        Int      @id @default(autoincrement())
-  title     String
-  content   String
-  createdAt DateTime @default(now())
+model User {
+  id       Int     @id @default(autoincrement())
+  role     String
+  username String? @unique
+  kodeDesa String?
+  kecamatan String?
+  password String
 }
