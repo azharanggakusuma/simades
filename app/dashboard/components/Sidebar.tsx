@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
   MdDashboard,
@@ -8,11 +8,14 @@ import {
   MdLogout,
   MdSettings,
   MdMenu,
-  MdExpandMore
+  MdExpandMore,
 } from "react-icons/md";
 import Swal from "sweetalert2";
+import { usePathname } from "next/navigation";
 
 export default function Sidebar() {
+  const pathname = usePathname();
+
   const handleLogout = () => {
     Swal.fire({
       title: "Logout?",
@@ -26,7 +29,7 @@ export default function Sidebar() {
           "bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 focus:outline-none",
         cancelButton:
           "bg-gray-300 text-black px-4 py-2 rounded hover:bg-gray-400 focus:outline-none",
-        actions: "space-x-3"
+        actions: "space-x-3",
       },
       buttonsStyling: false,
     }).then((result) => {
@@ -35,6 +38,20 @@ export default function Sidebar() {
       }
     });
   };
+
+  const menuClass = (target: string) =>
+    `flex items-center p-2 rounded-lg group transition duration-150 ${
+      pathname === target
+        ? "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
+        : "text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+    }`;
+
+  const iconClass = (target: string) =>
+    `w-5 h-5 transition-colors duration-150 ${
+      pathname === target
+        ? "text-gray-900 dark:text-white"
+        : "text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+    }`;
 
   return (
     <aside
@@ -55,11 +72,8 @@ export default function Sidebar() {
         </a>
         <ul className="space-y-2 font-medium">
           <li>
-            <a
-              href="/dashboard"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <MdDashboard className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+            <a href="/dashboard" className={menuClass("/dashboard")}>
+              <MdDashboard className={iconClass("/dashboard")} />
               <span className="ms-3">Dashboard</span>
             </a>
           </li>
@@ -80,16 +94,20 @@ export default function Sidebar() {
             <ul id="dropdown-example" className="hidden py-2 space-y-2">
               <li>
                 <a
-                  href="#"
-                  className="flex items-center w-full p-2 pl-11 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/dashboard/pages/forms/form1"
+                  className={
+                    menuClass("/dashboard/pages/forms/form1") + " pl-11"
+                  }
                 >
                   Menu 1
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
-                  className="flex items-center w-full p-2 pl-11 text-gray-900 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  href="/dashboard/pages/forms/form2"
+                  className={
+                    menuClass("/dashboard/pages/forms/form2") + " pl-11"
+                  }
                 >
                   Menu 2
                 </a>
@@ -100,54 +118,55 @@ export default function Sidebar() {
           <li>
             <a
               href="/dashboard/pages/users"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className={menuClass("/dashboard/pages/users")}
             >
-              <MdGroup className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <MdGroup className={iconClass("/dashboard/pages/users")} />
               <span className="ms-3">Users</span>
             </a>
           </li>
 
           <li>
             <a
-              href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              href="/dashboard/pages/data-report"
+              className={menuClass("/dashboard/pages/data-report")}
             >
-              <MdInsertChartOutlined className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <MdInsertChartOutlined
+                className={iconClass("/dashboard/pages/data-report")}
+              />
               <span className="ms-3">Data Report</span>
             </a>
           </li>
 
           <li>
             <a
-              href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              href="/dashboard/pages/manage-form"
+              className={menuClass("/dashboard/pages/manage-form")}
             >
-              <MdMenu className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <MdMenu className={iconClass("/dashboard/pages/manage-form")} />
               <span className="ms-3">Manage Form</span>
             </a>
           </li>
 
           <li>
             <a
-              href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              href="/dashboard/pages/manage-menu"
+              className={menuClass("/dashboard/pages/manage-menu")}
             >
-              <MdMenu className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <MdMenu className={iconClass("/dashboard/pages/manage-menu")} />
               <span className="ms-3">Manage Menu</span>
             </a>
           </li>
 
           <li>
             <a
-              href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              href="/dashboard/pages/settings"
+              className={menuClass("/dashboard/pages/settings")}
             >
-              <MdSettings className="w-5 h-5 text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" />
+              <MdSettings className={iconClass("/dashboard/pages/settings")} />
               <span className="ms-3">Settings</span>
             </a>
           </li>
 
-          {/* Logout - Dibedakan dengan warna merah dan batas atas */}
           <li className="border-t border-gray-300 dark:border-gray-600 mt-2 pt-2">
             <button
               onClick={handleLogout}
