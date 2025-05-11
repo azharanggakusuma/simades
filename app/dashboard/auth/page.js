@@ -143,7 +143,7 @@ export default function Login() {
                     inputId="desa"
                     name="desa"
                     options={desaOptions}
-                    placeholder="Cari dan pilih desa..."
+                    placeholder="Cari dan pilih desa"
                     isSearchable
                     styles={customSelectStyles}
                   />
@@ -164,7 +164,7 @@ export default function Login() {
                     inputId="kecamatan"
                     name="kecamatan"
                     options={kecamatanOptions}
-                    placeholder="Cari dan pilih kecamatan..."
+                    placeholder="Cari dan pilih kecamatan"
                     isSearchable
                     styles={customSelectStyles}
                   />
