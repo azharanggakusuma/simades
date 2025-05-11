@@ -150,7 +150,7 @@ export default function TableUser() {
                       <td className="size-px whitespace-nowrap">
                         <div className="px-6 py-3">
                           <span className="text-sm text-gray-500 dark:text-neutral-500">
-                            jfhhihf7r84n474
+                            Password 1
                           </span>
                         </div>
                       </td>
@@ -220,7 +220,7 @@ export default function TableUser() {
                       <td className="size-px whitespace-nowrap">
                         <div className="px-6 py-3">
                           <span className="text-sm text-gray-500 dark:text-neutral-500">
-                            vrknvnr874bnv
+                            Password 2
                           </span>
                         </div>
                       </td>
