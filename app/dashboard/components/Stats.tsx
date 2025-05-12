@@ -1,6 +1,6 @@
 import {
   UserGroupIcon,
-  BuildingLibraryIcon,
+  DocumentTextIcon,
   BuildingOfficeIcon,
   MapIcon,
   ArrowRightIcon,
@@ -9,24 +9,17 @@ import {
 export default function Stats() {
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-      {/* USERS */}
+      {/* KELURAHAN */}
       <Card
-        title="Users"
-        value="424"
-        icon={<UserGroupIcon className="w-5 h-5" />}
+        title="Formulir"
+        value="16"
+        icon={<DocumentTextIcon className="w-5 h-5" />}
       />
 
       {/* DESA */}
       <Card
-        title="Desa"
-        value="412"
-        icon={<BuildingLibraryIcon className="w-5 h-5" />}
-      />
-
-      {/* KELURAHAN */}
-      <Card
-        title="Kelurahan"
-        value="12"
+        title="Desa/Kelurahan"
+        value="424"
         icon={<BuildingOfficeIcon className="w-5 h-5" />}
       />
 
@@ -35,6 +28,13 @@ export default function Stats() {
         title="Kecamatan"
         value="40"
         icon={<MapIcon className="w-5 h-5" />}
+      />
+
+      {/* USERS */}
+      <Card
+        title="Users"
+        value="425"
+        icon={<UserGroupIcon className="w-5 h-5" />}
       />
     </div>
   );
