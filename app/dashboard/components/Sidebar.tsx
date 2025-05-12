@@ -42,7 +42,7 @@ export default function Sidebar() {
   const menuClass = (target: string) =>
     `flex items-center p-2 rounded-lg group transition duration-150 ${
       pathname === target
-        ? "bg-gray-200 dark:bg-gray-700 text-black dark:text-white"
+        ? "bg-gray-100 dark:bg-gray-700 text-black dark:text-white"
         : "text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
     }`;
 
