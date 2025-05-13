@@ -3,6 +3,7 @@ import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
 import CardForm from "./CardForm";
+import CardForm2 from "./CardForm2";
 
 export default function Form1() {
   return (
@@ -17,6 +18,7 @@ export default function Form1() {
 
         <div className="mb-8 mt-[-45px]">
           <CardForm />
+          <CardForm2 />
         </div>
       </main>
       
