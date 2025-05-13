@@ -53,6 +53,24 @@ export default function Sidebar() {
         : "text-gray-500 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
     }`;
 
+  const formMenus = [
+    { name: "Keterangan Tempat", href: "/dashboard/pages/forms/keterangan-tempat" },
+    { name: "Keterangan Umum Desa Kelurahan", href: "/dashboard/pages/forms/keterangan-umum-desa-kelurahan" },
+    { name: "Kependudukan dan Ketenagakerjaan", href: "/dashboard/pages/forms/kependudukan-dan-ketenagakerjaan" },
+    { name: "Bencana Alam dan Mitigasi Bencana Alam", href: "/dashboard/pages/forms/bencana-alam-dan-mitigasi" },
+    { name: "Pendidikan dan Kesehatan", href: "/dashboard/pages/forms/pendidikan-dan-kesehatan" },
+    { name: "Sosial Budaya", href: "/dashboard/pages/forms/sosial-budaya" },
+    { name: "Olahraga", href: "/dashboard/pages/forms/olahraga" },
+    { name: "Angkutan, Komunikasi, dan Informasi", href: "/dashboard/pages/forms/angkutan-komunikasi-informasi" },
+    { name: "Ekonomi", href: "/dashboard/pages/forms/ekonomi" },
+    { name: "Keamanan", href: "/dashboard/pages/forms/keamanan" },
+    { name: "Keuangan dan Aset Desa", href: "/dashboard/pages/forms/keuangan-aset-desa" },
+    { name: "Perlindungan Sosial, Pembangunan, dan Pemberdayaan Masyarakat", href: "/dashboard/pages/forms/perlindungan-sosial-pembangunan-pemberdayaan" },
+    { name: "Aparatur Pemerintahan Desa", href: "/dashboard/pages/forms/aparatur-pemerintahan-desa" },
+    { name: "Lembaga Kemasyarakatan di Desa Kelurahan", href: "/dashboard/pages/forms/lembaga-kemasyarakatan" },
+    { name: "Data Lokasi Geospasial", href: "/dashboard/pages/forms/data-lokasi-geospasial" },
+  ];
+
   return (
     <aside
       id="logo-sidebar"
@@ -92,26 +110,16 @@ export default function Sidebar() {
               <MdExpandMore className="w-4 h-4" />
             </button>
             <ul id="dropdown-example" className="hidden py-2 space-y-2">
-              <li>
-                <a
-                  href="/dashboard/pages/forms/form1"
-                  className={
-                    menuClass("/dashboard/pages/forms/form1") + " pl-11"
-                  }
-                >
-                  Menu 1
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/dashboard/pages/forms/form2"
-                  className={
-                    menuClass("/dashboard/pages/forms/form2") + " pl-11"
-                  }
-                >
-                  Menu 2
-                </a>
-              </li>
+              {formMenus.map((menu, index) => (
+                <li key={index}>
+                  <a
+                    href={menu.href}
+                    className={`${menuClass(menu.href)} pl-11`}
+                  >
+                    {menu.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </li>
 

@@ -3,7 +3,7 @@ import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
 import Breadcrumb from "../../components/Breadcrumb";
 
-export default function Users() {
+export default function ManageForm() {
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col">
       <Navbar />

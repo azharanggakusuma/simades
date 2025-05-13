@@ -1,9 +1,9 @@
-import Navbar from "../../components/Navbar";
-import Sidebar from "../../components/Sidebar";
-import Footer from "../../components/Footer";
-import Breadcrumb from "../../components/Breadcrumb";
+import Navbar from "../../../components/Navbar";
+import Sidebar from "../../../components/Sidebar";
+import Footer from "../../../components/Footer";
+import Breadcrumb from "../../../components/Breadcrumb";
 
-export default function DataReport() {
+export default function Form13() {
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col">
       <Navbar />
