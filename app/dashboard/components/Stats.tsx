@@ -14,6 +14,7 @@ export default function Stats() {
   const [openModal, setOpenModal] = useState<string | null>(null);
   const [dataDesa, setDataDesa] = useState<any[]>([]);
   const [dataKecamatan, setDataKecamatan] = useState<string[]>([]);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     fetch('/api/kab_cirebon.json')
@@ -24,6 +25,21 @@ export default function Stats() {
         setDataKecamatan(uniqueKecamatan);
       });
   }, []);
+
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value.toLowerCase());
+  };
+
+  const getFilteredDesa = () =>
+    dataDesa.filter(
+      (d) =>
+        d.Nama_Desa.toLowerCase().includes(searchTerm) ||
+        d.Kecamatan.toLowerCase().includes(searchTerm) ||
+        d.Kode_Desa.includes(searchTerm)
+    );
+
+  const getFilteredKecamatan = () =>
+    dataKecamatan.filter((k) => k.toLowerCase().includes(searchTerm));
 
   return (
     <>
@@ -39,7 +55,10 @@ export default function Stats() {
           <div className="relative w-full max-w-4xl mx-4 md:mx-auto bg-white dark:bg-neutral-900 rounded-2xl shadow-2xl p-6 md:p-8 overflow-auto max-h-[85vh] animate-fadeIn">
             <button
               className="absolute top-4 right-4 text-gray-400 hover:text-red-500 transition"
-              onClick={() => setOpenModal(null)}
+              onClick={() => {
+                setOpenModal(null);
+                setSearchTerm('');
+              }}
             >
               <XMarkIcon className="w-6 h-6" />
             </button>
@@ -47,6 +66,18 @@ export default function Stats() {
             <h2 className="text-2xl font-bold mb-6 text-center text-gray-800 dark:text-white capitalize">
               Data {openModal}
             </h2>
+
+            {(openModal === 'desa' || openModal === 'kecamatan') && (
+              <div className="mb-4">
+                <input
+                  type="text"
+                  placeholder="Cari..."
+                  value={searchTerm}
+                  onChange={handleSearch}
+                  className="w-full px-4 py-2 border rounded-md dark:bg-neutral-800 dark:border-neutral-700 dark:text-white"
+                />
+              </div>
+            )}
 
             <div className="overflow-x-auto">
               {openModal === 'formulir' && (
@@ -62,14 +93,14 @@ export default function Stats() {
               {openModal === 'desa' && (
                 <Table
                   headers={['Kode', 'Nama', 'Kecamatan']}
-                  rows={dataDesa.map(d => [d.Kode_Desa, d.Nama_Desa, d.Kecamatan])}
+                  rows={getFilteredDesa().map(d => [d.Kode_Desa, d.Nama_Desa, d.Kecamatan])}
                 />
               )}
 
               {openModal === 'kecamatan' && (
                 <Table
                   headers={['Kecamatan']}
-                  rows={dataKecamatan.map(nama => [nama])}
+                  rows={getFilteredKecamatan().map(k => [k])}
                 />
               )}
 
