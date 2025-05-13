@@ -67,18 +67,18 @@ export default function ChartVisitor() {
           type: "category",
           tickPlacement: "on",
           categories: [
-            "January",
-            "February",
-            "March",
+            "Januari",
+            "Februari",
+            "Maret",
             "April",
-            "May",
-            "June",
-            "July",
-            "August",
+            "Mei",
+            "Juni",
+            "Juli",
+            "Agustus",
             "September",
-            "October",
-            "November",
-            "December",
+            "Oktober",
+            "Nopember",
+            "Desember",
           ],
           axisBorder: { show: false },
           axisTicks: { show: false },
@@ -155,7 +155,7 @@ export default function ChartVisitor() {
       <div className="flex flex-wrap justify-between items-center gap-2">
         <div>
           <h2 className="text-sm text-gray-500 dark:text-neutral-500">
-            Visitors
+            Pengunjung
           </h2>
           <p className="text-xl sm:text-2xl font-medium text-gray-800 dark:text-neutral-200">
             2.5k
