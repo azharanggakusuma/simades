@@ -17,13 +17,16 @@ export default function Breadcrumb() {
 
   const isDashboardOnly = pathname === "/dashboard";
 
-  // Buat item breadcrumb
+  // Breadcrumb hanya "Dashboard > Segment Terakhir"
   const breadcrumbItems = isDashboardOnly
     ? [{ name: "Home", href: "/" }, { name: "Dashboard", href: "/dashboard" }]
-    : segments.map((seg, idx) => ({
-        name: formatSegment(seg),
-        href: "/" + segments.slice(0, idx + 1).join("/"),
-      }));
+    : [
+        { name: "Dashboard", href: "/dashboard" },
+        {
+          name: formatSegment(segments[segments.length - 1]),
+          href: pathname,
+        },
+      ];
 
   const isDashboard = pathname === "/dashboard";
   const pageTitle = isDashboard
@@ -37,7 +40,9 @@ export default function Breadcrumb() {
           {pageTitle}
         </h1>
         {isDashboard && (
-          <p className="text-sm text-gray-500 mt-1">Diskominfo Kab. Cirebon</p>
+          <p className="text-sm text-gray-500 mt-1">
+            Diskominfo Kab. Cirebon
+          </p>
         )}
       </div>
 
