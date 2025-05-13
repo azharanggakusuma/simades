@@ -2,6 +2,7 @@ import Navbar from "../../../components/Navbar";
 import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import Breadcrumb from "../../../components/Breadcrumb";
+import CardForm from "./CardForm";
 
 export default function Form1() {
   return (
@@ -15,7 +16,7 @@ export default function Form1() {
         </div>
 
         <div className="mb-8 mt-[-45px]">
-        
+          <CardForm />
         </div>
       </main>
       
