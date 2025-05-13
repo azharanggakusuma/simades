@@ -31,15 +31,19 @@ export default function Stats() {
   };
 
   const getFilteredDesa = () =>
-    dataDesa.filter(
+  dataDesa
+    .filter(
       (d) =>
         d.Nama_Desa.toLowerCase().includes(searchTerm) ||
         d.Kecamatan.toLowerCase().includes(searchTerm) ||
         d.Kode_Desa.includes(searchTerm)
-    );
+    )
+    .sort((a, b) => a.Nama_Desa.localeCompare(b.Nama_Desa));
 
   const getFilteredKecamatan = () =>
-    dataKecamatan.filter((k) => k.toLowerCase().includes(searchTerm));
+  dataKecamatan
+    .filter((k) => k.toLowerCase().includes(searchTerm))
+    .sort((a, b) => a.localeCompare(b));
 
   return (
     <>
