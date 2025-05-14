@@ -7,7 +7,6 @@ import {
   MdInfo,
   MdSave,
 } from "react-icons/md";
-import { Info, Save } from "lucide-react";
 
 export default function CardForm() {
   const [currentPage, setCurrentPage] = useState(1);
