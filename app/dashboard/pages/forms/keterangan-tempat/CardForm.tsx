@@ -53,14 +53,6 @@ export default function CardForm() {
                         <MdInfo className="w-4 h-4" />
                         Aturan Pengisian
                       </a>
-                      <button
-                        type="submit"
-                        form="formData"
-                        className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700"
-                      >
-                        <MdSave className="w-4 h-4" />
-                        Simpan
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -170,6 +162,21 @@ export default function CardForm() {
                       </div>
                     </>
                   )}
+
+                  {/* Simpan Button di kiri bawah form */}
+                  <div className="pt-2">
+                    <button
+                      type="submit"
+                      form="formData"
+                      disabled={currentPage !== totalPages}
+                      className={`py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 ${
+                        currentPage !== totalPages && "opacity-50 cursor-not-allowed"
+                      }`}
+                    >
+                      <MdSave className="w-4 h-4" />
+                      Simpan
+                    </button>
+                  </div>
                 </form>
                 {/* End Form */}
 
