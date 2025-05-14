@@ -1,7 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
-import { MdChevronLeft, MdChevronRight, MdInfo, MdSave, MdClose } from "react-icons/md";
+import {
+  MdChevronLeft,
+  MdChevronRight,
+  MdInfo,
+  MdSave,
+  MdClose,
+} from "react-icons/md";
 
 export default function CardForm() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -23,34 +29,45 @@ export default function CardForm() {
 
   return (
     <>
-      {/* Modal */}
       {showModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
-          <div className="bg-white rounded-xl w-full max-w-md p-6 shadow-2xl relative transform transition-all duration-300 scale-100 animate-fade-in">
-            {/* Tombol Close */}
-            <button
-              className="absolute top-3 right-3 text-gray-400 hover:text-red-500"
-              onClick={() => setShowModal(false)}
-              aria-label="Tutup"
-            >
-              <MdClose size={24} />
-            </button>
+          <div className="bg-white rounded-xl w-full max-w-md shadow-2xl transform transition-all duration-300 scale-100 animate-fade-in">
+            {/* Header */}
+            <div className="flex items-center justify-between p-4 border-b">
+              <h2 className="text-lg font-semibold text-gray-800">
+                Aturan Pengisian
+              </h2>
+              <button
+                onClick={() => setShowModal(false)}
+                className="text-gray-400 hover:text-red-500"
+                aria-label="Tutup"
+              >
+                <MdClose size={24} />
+              </button>
+            </div>
 
-            {/* Judul Modal */}
-            <h2 className="text-xl font-bold text-gray-800 mb-2">
-              Aturan Pengisian
-            </h2>
-            <p className="text-sm text-gray-500 mb-4">
-              Mohon isi data berikut dengan cermat sesuai petunjuk berikut:
-            </p>
+            {/* Body */}
+            <div className="p-4">
+              <p className="text-sm text-gray-500 mb-4">
+                Mohon isi data berikut dengan cermat sesuai petunjuk berikut:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-sm text-gray-700">
+                <li>Gunakan huruf kapital pada nama resmi wilayah.</li>
+                <li>Nomor HP harus aktif untuk keperluan verifikasi.</li>
+                <li>Data wajib diisi lengkap dan tidak boleh fiktif.</li>
+                <li>Cek kembali sebelum menekan tombol "Simpan".</li>
+              </ul>
+            </div>
 
-            {/* Isi Aturan */}
-            <ul className="list-disc list-inside space-y-2 text-sm text-gray-700">
-              <li>Gunakan huruf kapital pada nama resmi wilayah.</li>
-              <li>Nomor HP harus aktif untuk keperluan verifikasi.</li>
-              <li>Data wajib diisi lengkap dan tidak boleh fiktif.</li>
-              <li>Cek kembali sebelum menekan tombol "Simpan".</li>
-            </ul>
+            {/* Footer */}
+            <div className="border-t p-4 flex justify-end">
+              <button
+                onClick={() => setShowModal(false)}
+                className="px-3 py-1 text-sm bg-gray-200 hover:bg-gray-300 text-gray-800 rounded"
+              >
+                Tutup
+              </button>
+            </div>
           </div>
         </div>
       )}
