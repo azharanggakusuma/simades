@@ -76,7 +76,7 @@ export default function CardForm() {
                         <textarea
                           id="alamat"
                           rows={4}
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="Isi alamat kantor desa"
                         />
                       </div>
@@ -90,7 +90,7 @@ export default function CardForm() {
                         <input
                           id="kecamatan"
                           type="text"
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="Isi nama kecamatan"
                         />
                       </div>
@@ -109,7 +109,7 @@ export default function CardForm() {
                         <input
                           id="kabupaten"
                           type="text"
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="Contoh: Cirebon"
                         />
                       </div>
@@ -123,7 +123,7 @@ export default function CardForm() {
                         <input
                           id="provinsi"
                           type="text"
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="Contoh: Jawa Barat"
                         />
                       </div>
@@ -142,7 +142,7 @@ export default function CardForm() {
                         <input
                           id="namaPetugas"
                           type="text"
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="Isi nama lengkap"
                         />
                       </div>
@@ -156,7 +156,7 @@ export default function CardForm() {
                         <input
                           id="noHp"
                           type="text"
-                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                          className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition"
                           placeholder="08xxxxxxxxxx"
                         />
                       </div>

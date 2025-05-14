@@ -30,3 +30,7 @@ body {
     border: none !important;
     box-shadow: none !important;
   }
+
+.input-soft-focus {
+  @apply focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition;
+}
