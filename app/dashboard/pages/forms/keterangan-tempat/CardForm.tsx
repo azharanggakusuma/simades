@@ -1,15 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import {
-  MdChevronLeft,
-  MdChevronRight,
-  MdInfo,
-  MdSave,
-} from "react-icons/md";
+import { MdChevronLeft, MdChevronRight, MdInfo, MdSave, MdClose } from "react-icons/md";
 
 export default function CardForm() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [showModal, setShowModal] = useState(false);
   const totalPages = 3;
 
   const nextPage = () => {
@@ -27,6 +23,39 @@ export default function CardForm() {
 
   return (
     <>
+      {/* Modal */}
+      {showModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+          <div className="bg-white rounded-xl w-full max-w-md p-6 shadow-2xl relative transform transition-all duration-300 scale-100 animate-fade-in">
+            {/* Tombol Close */}
+            <button
+              className="absolute top-3 right-3 text-gray-400 hover:text-red-500"
+              onClick={() => setShowModal(false)}
+              aria-label="Tutup"
+            >
+              <MdClose size={24} />
+            </button>
+
+            {/* Judul Modal */}
+            <h2 className="text-xl font-bold text-gray-800 mb-2">
+              Aturan Pengisian
+            </h2>
+            <p className="text-sm text-gray-500 mb-4">
+              Mohon isi data berikut dengan cermat sesuai petunjuk berikut:
+            </p>
+
+            {/* Isi Aturan */}
+            <ul className="list-disc list-inside space-y-2 text-sm text-gray-700">
+              <li>Gunakan huruf kapital pada nama resmi wilayah.</li>
+              <li>Nomor HP harus aktif untuk keperluan verifikasi.</li>
+              <li>Data wajib diisi lengkap dan tidak boleh fiktif.</li>
+              <li>Cek kembali sebelum menekan tombol "Simpan".</li>
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {/* Main Form */}
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="flex flex-col">
           <div className="-m-1.5 overflow-x-auto">
@@ -38,21 +67,20 @@ export default function CardForm() {
                     <h2 className="text-gray-800 text-base font-semibold">
                       {currentPage === 1 &&
                         "Alamat Balai Desa/Kantor Kelurahan"}
-                      {currentPage === 2 &&
-                        "Identitas Wilayah Administrasi"}
-                      {currentPage === 3 &&
-                        "Informasi Petugas Pengisi Data"}
+                      {currentPage === 2 && "Identitas Wilayah Administrasi"}
+                      {currentPage === 3 && "Informasi Petugas Pengisi Data"}
                     </h2>
                   </div>
                   <div>
                     <div className="inline-flex gap-x-2">
-                      <a
+                      <button
+                        type="button"
+                        onClick={() => setShowModal(true)}
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50"
-                        href="#"
                       >
                         <MdInfo className="w-4 h-4" />
                         Aturan Pengisian
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -163,14 +191,15 @@ export default function CardForm() {
                     </>
                   )}
 
-                  {/* Simpan Button di kiri bawah form */}
+                  {/* Simpan Button */}
                   <div className="pt-2">
                     <button
                       type="submit"
                       form="formData"
                       disabled={currentPage !== totalPages}
                       className={`py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 ${
-                        currentPage !== totalPages && "opacity-50 cursor-not-allowed"
+                        currentPage !== totalPages &&
+                        "opacity-50 cursor-not-allowed"
                       }`}
                     >
                       <MdSave className="w-4 h-4" />
