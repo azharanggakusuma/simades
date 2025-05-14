@@ -41,12 +41,14 @@ export default function Login() {
   }, []);
 
   const customSelectStyles = {
-    control: (base) => ({
+    control: (base, state) => ({
       ...base,
       height: "48px",
       minHeight: "48px",
       borderRadius: "0.5rem",
-      borderColor: "#d1d5db",
+      borderColor: state.isFocused ? "#93c5fd" : "#d1d5db",
+      boxShadow: state.isFocused ? "0 0 0 2px #bfdbfe" : "none",
+      transition: "all 0.2s ease-in-out",
       fontSize: "0.875rem",
       backgroundColor: "white",
     }),
@@ -123,7 +125,7 @@ export default function Login() {
                     id="username"
                     name="username"
                     placeholder="Masukkan username"
-                    className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                    className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
                     required
                   />
                 </div>
@@ -185,7 +187,7 @@ export default function Login() {
                   id="password"
                   name="password"
                   placeholder="Masukkan password"
-                  className="w-full py-3 px-4 pr-11 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                  className="w-full py-3 px-4 pr-11 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
                   required
                 />
                 <button
@@ -213,7 +215,7 @@ export default function Login() {
                 <select
                   id="year"
                   name="year"
-                  className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
+                  className="w-full py-3 px-4 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-200 focus:border-blue-300 transition dark:bg-neutral-900 dark:border-neutral-700 dark:text-white"
                   required
                 >
                   <option value="" disabled selected>
