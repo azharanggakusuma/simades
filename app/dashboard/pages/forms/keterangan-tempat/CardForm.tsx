@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import {
   MdChevronLeft,
   MdChevronRight,
+  MdInfo,
+  MdSave,
 } from "react-icons/md";
 import { Info, Save } from "lucide-react";
 
@@ -42,7 +44,6 @@ export default function CardForm() {
                       {currentPage === 3 &&
                         "Informasi Petugas Pengisi Data"}
                     </h2>
-                    <Info className="w-4 h-4 text-gray-400" />
                   </div>
                   <div>
                     <div className="inline-flex gap-x-2">
@@ -50,7 +51,7 @@ export default function CardForm() {
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50"
                         href="#"
                       >
-                        <Info className="w-4 h-4" />
+                        <MdInfo className="w-4 h-4" />
                         Aturan Pengisian
                       </a>
                       <button
@@ -58,7 +59,7 @@ export default function CardForm() {
                         form="formData"
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700"
                       >
-                        <Save className="w-4 h-4" />
+                        <MdSave className="w-4 h-4" />
                         Simpan
                       </button>
                     </div>
