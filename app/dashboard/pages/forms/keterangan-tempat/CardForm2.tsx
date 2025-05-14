@@ -30,22 +30,22 @@ export default function CardForm() {
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:bg-gray-50 dark:bg-transparent dark:border-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                         href="#"
                       >
-                        <FaDownload className="w-4 h-4" />
-                        Download
+                        <Info className="w-4 h-4" />
+                        Aturan Pengisian
                       </a>
                       <a
                         className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                         href="#"
                       >
-                        <FaUserPlus className="w-4 h-4" />
-                        Add user
+                        <Save className="w-4 h-4" />
+                        Simpan
                       </a>
                     </div>
                   </div>
                 </div>
                 {/* End Header */}
 
-                {/* Table */}
+                {/* Form */}
                 <form className="p-6 space-y-6">
                   <div>
                     <label
@@ -92,10 +92,10 @@ export default function CardForm() {
                 <div className="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-t border-gray-200 dark:border-neutral-700">
                   <div>
                     <p className="text-sm text-gray-600 dark:text-neutral-400">
+                      Halaman {" "}
                       <span className="font-semibold text-gray-800 dark:text-neutral-200">
-                        2
-                      </span>{" "}
-                      results
+                        1/2
+                      </span>
                     </p>
                   </div>
                   <div>
